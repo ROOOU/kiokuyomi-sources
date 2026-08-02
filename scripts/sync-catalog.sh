@@ -2,6 +2,7 @@
 set -euo pipefail
 
 ROOT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+CATALOG_DIR="${CATALOG_DIR:-$ROOT_DIR}"
 UPSTREAM_BASE_URL="${UPSTREAM_BASE_URL:-https://sources.kiokuyomi.com}"
 MODE="${1:-sync}"
 
@@ -20,7 +21,7 @@ validate_all_collection() {
     def forbidden_key:
       test("(^|[_-])(token|cookie|authorization|password|secret|access[_-]?key)([_-]|$)|private.*(key|secret)|aes.*(key|secret)|^(privateKey|private_key|aesKey|aes_key)$"; "i");
     if type != "object" then fail("root must be an object") else . end
-    | if ([keys[]] - ["kind", "schemaVersion", "name", "catalogSequence", "releaseId", "count", "rules"] | length) == 0 then . else fail("unexpected top-level field") end
+    | if ([keys[]] - ["kind", "schemaVersion", "name", "catalogSequence", "releaseId", "count", "rules", "bundle"] | length) == 0 then . else fail("unexpected top-level field") end
     | if .kind == "kiokuyomiRuleCollection" then . else fail("unexpected kind") end
     | if (.schemaVersion | type) == "number" then . else fail("schemaVersion must be numeric") end
     | if (.name | type) == "string" and (.name | length) > 0 then . else fail("name is required") end
@@ -28,6 +29,21 @@ validate_all_collection() {
     | if (.catalogSequence | type) == "number" and .catalogSequence >= 0 then . else fail("catalogSequence is invalid") end
     | if (.count | type) == "number" and .count >= 0 then . else fail("count is invalid") end
     | if (.rules | type) == "array" and (.rules | length) == .count then . else fail("count does not match rules") end
+    | if has("bundle") | not then .
+      elif (.bundle | type) == "object" then .
+      else fail("bundle must be an object") end
+    | if has("bundle") | not then .
+      elif ([.bundle | keys[]] - ["url", "bytes", "sha256"] | length) == 0 then .
+      else fail("unexpected bundle field") end
+    | if has("bundle") | not then .
+      elif (.bundle.url | type) == "string" and (.bundle.url | test("^https://[^[:space:]]+\\.kyybundle$")) then .
+      else fail("bundle URL must be HTTPS .kyybundle") end
+    | if has("bundle") | not then .
+      elif (.bundle.bytes | type) == "number" and .bundle.bytes > 0 and .bundle.bytes <= 33554432 then .
+      else fail("bundle bytes must be between 1 and 32 MiB") end
+    | if has("bundle") | not then .
+      elif (.bundle.sha256 | type) == "string" and (.bundle.sha256 | test("^[a-f0-9]{64}$")) then .
+      else fail("bundle sha256 is invalid") end
     | if ([.rules[] | ([keys[]] - ["id", "name", "url", "packageBytes", "packageSha256", "contentRating"] | length == 0)] | all) then . else fail("unexpected rule field") end
     | if ([.rules[].id] | all(type == "string" and length > 0)) then . else fail("invalid rule id") end
     | if ([.rules[].id] | unique | length) == (.rules | length) then . else fail("duplicate rule id") end
@@ -89,8 +105,8 @@ validate_pair() {
 }
 
 if [[ "$MODE" == "--check" ]]; then
-  validate_pair "$ROOT_DIR/all.json" "$ROOT_DIR/sources.json"
-  echo "Validated checked-in catalog ($(jq -r '.count' "$ROOT_DIR/all.json") rules)."
+  validate_pair "$CATALOG_DIR/all.json" "$CATALOG_DIR/sources.json"
+  echo "Validated catalog ($(jq -r '.count' "$CATALOG_DIR/all.json") rules)."
   exit 0
 fi
 

@@ -6,10 +6,12 @@ independent third-party service. KiokuYomi does not bundle these sites, endorse
 this repository in the app, or require anyone to use it.
 
 The repository contains catalog metadata only. Each item points to a signed,
-encrypted `.kyyrule` package hosted by the existing distribution service. No
-comic content, source implementation, JavaScript, Lua, Swift, executable
-plugin, account credential, Cookie, bypass token, or private key is stored
-here.
+encrypted `.kyyrule` package hosted by the existing distribution service. A
+newer collection may also include an optional `bundle` descriptor for one
+HTTPS `.kyybundle` from that same service; it contains only URL, byte count,
+and SHA-256 metadata. No comic content, source implementation, JavaScript,
+Lua, Swift, executable plugin, account credential, Cookie, bypass token, or
+private key is stored here.
 
 ## Add the catalog yourself
 
@@ -52,9 +54,11 @@ credentials or copyrighted files.
 
 Run `scripts/sync-catalog.sh` to download, validate, and update the two JSON
 files. Run `scripts/sync-catalog.sh --check` to validate only the checked-in
-files. The validator rejects unexpected sensitive field names, duplicate IDs,
-non-HTTPS package URLs, malformed hashes, schema/count mismatches, and a
-divergence between the two mirrors.
+files. The validator accepts the optional top-level `bundle` descriptor while
+requiring its HTTPS `.kyybundle` URL, 1–32 MiB byte count, and SHA-256. It
+rejects unexpected sensitive field names, duplicate IDs, non-HTTPS package
+URLs, malformed hashes, schema/count mismatches, and a divergence between the
+two mirrors.
 
 This repository is an optional catalog mirror for KiokuYomi. It does not host
 or serve comic content.

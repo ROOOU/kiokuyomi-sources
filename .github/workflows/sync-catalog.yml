@@ -1,0 +1,32 @@
+name: Sync public catalog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "23 */6 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: catalog-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch and validate public catalog
+        run: scripts/sync-catalog.sh
+      - name: Commit changed mirrors
+        run: |
+          if git diff --quiet -- all.json sources.json; then
+            echo "Catalog is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add all.json sources.json
+          git commit -m "Sync public catalog"
+          git push

@@ -2,2054 +2,2148 @@
   "kind": "kiokuyomiRuleCollection",
   "schemaVersion": 1,
   "name": "KiokuYomi 官方全部站点",
-  "catalogSequence": 14,
-  "releaseId": "rules-4943a8e0ac6de122-20260821183836",
-  "count": 255,
+  "catalogSequence": 35,
+  "releaseId": "rules-8e89f33c0d1a6595-35",
+  "count": 237,
+  "minimumRuleEngineVersion": 1,
   "bundle": {
-    "url": "https://sources.kiokuyomi.com/v1/rule-bundles/rules-4943a8e0ac6de122-20260821183836/all.kyybundle",
-    "bytes": 561855,
-    "sha256": "0b576d32862a9803179c7b54c342561b02b302cbaed5f95935ed96fc50bdd0cf"
+    "url": "https://sources.kiokuyomi.com/v1/rule-bundles/rules-8e89f33c0d1a6595-35/all.kyybundle",
+    "bytes": 588364,
+    "sha256": "6ce8ede7c623bcc64188662e8877053a2e49fb68a874cc958fbc3060012e3a83"
   },
   "rules": [
     {
       "id": "mangadex",
-      "name": "MangaDex",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangadex.kyyrule",
-      "packageBytes": 1734,
-      "packageSha256": "32a9bb6089ed0affd091e0ba80b00e5086be63be14f1dcf7b0c4bbddc730d138",
-      "contentRating": "teen"
+      "name": "MangaDex（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangadex.kyyrule",
+      "packageBytes": 4274,
+      "packageSha256": "094ba0921614a4af34913b6ee898e90dd7046612663b97ede738af04428cb676",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "peppercarrot",
-      "name": "Pepper&Carrot",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/peppercarrot.kyyrule",
-      "packageBytes": 1214,
-      "packageSha256": "c9d9786121a67325587fbe4335f1df8a675511cd4aad2b4416d9d121f361f48e",
-      "contentRating": "safe"
+      "name": "Pepper&Carrot（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/peppercarrot.kyyrule",
+      "packageBytes": 1308,
+      "packageSha256": "86cfce1135f0b54efa9cc1665795d3ccd9a4c8f35477c0752324c902e219e7f3",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "webtoons-en",
-      "name": "WEBTOON English",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/webtoons-en.kyyrule",
-      "packageBytes": 1558,
-      "packageSha256": "87ae22c142df88d4cc84b01d52bd1eb83146a16f9bf01539976040e2be10db9a",
-      "contentRating": "mature"
+      "name": "WEBTOON English（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/webtoons-en.kyyrule",
+      "packageBytes": 1798,
+      "packageSha256": "7237998c2403f95ec83d7097540d6d8854f058affa33bcf8b31866c03314dacb",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "scmp-news",
-      "name": "SCMP News",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/scmp-news.kyyrule",
-      "packageBytes": 1434,
-      "packageSha256": "509eadb8bf11b0f6ab8991656a7c85bba1acb9abc81b9a18208bb6d8d44a6fb6",
-      "contentRating": "safe"
+      "name": "SCMP News（英文图文）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/scmp-news.kyyrule",
+      "packageBytes": 1656,
+      "packageSha256": "e73a729f487198c4ca57dab5a7ad8ee50fa7eb6b86b96f47ae7db2f2465a0b6d",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "holonometria",
-      "name": "HOLONOMETRIA",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/holonometria.kyyrule",
-      "packageBytes": 1216,
-      "packageSha256": "361d6a59da75f31148a093707bf7c391d6fad3e7e5fc7695879f9ba49a360e13",
-      "contentRating": "safe"
-    },
-    {
-      "id": "keiyoushi-simplyhentai",
-      "name": "Simply Hentai",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-simplyhentai.kyyrule",
-      "packageBytes": 1792,
-      "packageSha256": "7a974516076245c1e6bf30965f838a6f10caf4fa818972a3afed8312eb85fb88",
-      "contentRating": "adult"
+      "name": "HOLONOMETRIA（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/holonometria.kyyrule",
+      "packageBytes": 1316,
+      "packageSha256": "f386a5a0b6ea710ec559611c44f5fadd889313f3cd872028a67ebefb245189bd",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "smbc",
-      "name": "SMBC",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/smbc.kyyrule",
-      "packageBytes": 1084,
-      "packageSha256": "49474076dc7dfa56ed7642f7b666092121b4d824b456865212c7b28ae0950df7",
-      "contentRating": "safe"
+      "name": "SMBC（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/smbc.kyyrule",
+      "packageBytes": 1712,
+      "packageSha256": "393c80d669bcfbc37344281f0d5553562d6f8243a01e3fe31d1ca08d639ac5af",
+      "contentRating": "safe",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangabz",
-      "name": "MangaBZ",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangabz.kyyrule",
-      "packageBytes": 2856,
-      "packageSha256": "67f5e3ad53b4c07acae986c2bb6fc1efb194e89d0ead6a39ec661d4c8111c947",
-      "contentRating": "teen"
-    },
-    {
-      "id": "keiyoushi-pixiv-zh",
-      "name": "Pixiv",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-pixiv-zh.kyyrule",
-      "packageBytes": 1450,
-      "packageSha256": "bcd4d768963bd84b4fc4dc25e0128b923165667e83714c607931204c23b2ea97",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-hentaiclub",
-      "name": "绅士会所",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hentaiclub.kyyrule",
-      "packageBytes": 1474,
-      "packageSha256": "ae053bada8bfe6c5c268e09b51b68e9dd97f485fac810323592415bee85cf6f0",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-pornpics",
-      "name": "PornPics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-pornpics.kyyrule",
-      "packageBytes": 1752,
-      "packageSha256": "1ac1d0af74e43c99724f4341f063d1c0be775e6e270d15f992035cdd6dc57a78",
-      "contentRating": "adult"
+      "name": "MangaBZ（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangabz.kyyrule",
+      "packageBytes": 2941,
+      "packageSha256": "46f42015a32bc949cd8da09aa920df00bd19d56e0d14d0c92509e4a1afbc0c16",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "baozimh-plus",
       "name": "包子漫画+",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/baozimh-plus.kyyrule",
-      "packageBytes": 2269,
-      "packageSha256": "d28ca6a4a6256ff37763bfcbd310c28f17a5e2ac70e755328d474c5d0373fedd",
-      "contentRating": "teen"
-    },
-    {
-      "id": "keiyoushi-cartoon18",
-      "name": "Cartoon18",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-cartoon18.kyyrule",
-      "packageBytes": 2030,
-      "packageSha256": "cf25c08f2109ea7fbd5a75d8b5cc235e18c337a99bcac65c9f2678fc3b3bcd57",
-      "contentRating": "adult"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/baozimh-plus.kyyrule",
+      "packageBytes": 2833,
+      "packageSha256": "cd21fd60896b067595e07e43e19af318cc382e6d180faed4c7d67c54daa3cdf2",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "godamanga",
       "name": "G社漫畫",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/godamanga.kyyrule",
-      "packageBytes": 2170,
-      "packageSha256": "ec98c857438ea4d18156ec4140ac8860b68e8c525ea20902e593faee3d7bebc1",
-      "contentRating": "teen"
-    },
-    {
-      "id": "keiyoushi-dongmanmanhua",
-      "name": "Dongman Manhua",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-dongmanmanhua.kyyrule",
-      "packageBytes": 2310,
-      "packageSha256": "e0e42a36ddb10497beaf08d52593a2355db7f2299442de9d08d0a9c4c9aaa1ad",
-      "contentRating": "safe"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/godamanga.kyyrule",
+      "packageBytes": 2714,
+      "packageSha256": "1792680f921efdf0f906a112f77ef4feb75898bc78fb3ec720b6c1c91261ac1f",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "miaoqumh",
       "name": "妙趣漫画",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/miaoqumh.kyyrule",
-      "packageBytes": 1956,
-      "packageSha256": "8f72c0a474e6f8d53010c2fd51c42155982b72f2ca83fd953655c04d4701d6ce",
-      "contentRating": "teen"
-    },
-    {
-      "id": "keiyoushi-zazhimi",
-      "name": "杂志迷",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-zazhimi.kyyrule",
-      "packageBytes": 2138,
-      "packageSha256": "b8a4f27b59d9a552cac4926e65e4f50a618576159d85452cec31ec894f230efa",
-      "contentRating": "safe"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/miaoqumh.kyyrule",
+      "packageBytes": 3400,
+      "packageSha256": "92ead68aca287f8890a6aa469c5ad93933d7253f7a7b661b4f1ae48799b1a5ac",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "dragonball-multiverse",
-      "name": "Dragon Ball Multiverse",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/dragonball-multiverse.kyyrule",
-      "packageBytes": 1258,
-      "packageSha256": "3e81aaa8fdaf7dcba64f435babf3321dd8fbb0f92a02c779ca3779f09ab1913f",
-      "contentRating": "teen"
-    },
-    {
-      "id": "keiyoushi-bh3",
-      "name": "《崩坏3》IP站",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-bh3.kyyrule",
-      "packageBytes": 1544,
-      "packageSha256": "1d5426b9d9dd8ec6292f89b1eb2bed0799eed66adc46135b83f73cadf169b574",
-      "contentRating": "safe"
+      "name": "Dragon Ball Multiverse（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/dragonball-multiverse.kyyrule",
+      "packageBytes": 1358,
+      "packageSha256": "c4d52cd3f3d21a62707d9f42646d2ceb01a3cfc2c48c21efcc21fc9334e185db",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangareader-site",
-      "name": "MangaReader.site",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangareader-site.kyyrule",
-      "packageBytes": 1336,
-      "packageSha256": "cbf34c699b67312c5c4cc17a453584894d0ad8993fadf19b901f8d98ff32a1a2",
-      "contentRating": "teen"
+      "name": "MangaReader.site（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangareader-site.kyyrule",
+      "packageBytes": 1438,
+      "packageSha256": "43fe4987cc4eab2aa45456b36c315e4c00197d4e6ae1b731db948eb26afe8e6b",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangapanda-onl",
-      "name": "MangaPanda",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangapanda-onl.kyyrule",
-      "packageBytes": 2866,
-      "packageSha256": "bc31a3045d933a0d617646f45b93e7e10990f1c3c8ff5a831705aa748c46d991",
-      "contentRating": "adult"
-    },
-    {
-      "id": "keiyoushi-sixmh",
-      "name": "六漫画",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sixmh.kyyrule",
-      "packageBytes": 2230,
-      "packageSha256": "d71b0538c8aff47fc2a7cfef34f5a3f58e12e02a51f5dc8a53172a3ecf420ce7",
-      "contentRating": "adult"
-    },
-    {
-      "id": "keiyoushi-manhuashe",
-      "name": "漫画社",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhuashe.kyyrule",
-      "packageBytes": 1894,
-      "packageSha256": "b25f547ae796475292c3032ad951c4e6655be0f99ae57286761ad6ab5740b95f",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-mangakuro",
-      "name": "MangaKuro",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangakuro.kyyrule",
-      "packageBytes": 1740,
-      "packageSha256": "e4967ef561159b6ac16148126cd3973d9d114383f10687b3f2da2f4ac2a2abbb",
-      "contentRating": "mature"
+      "name": "MangaPanda（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangapanda-onl.kyyrule",
+      "packageBytes": 2982,
+      "packageSha256": "34f28bad8930492e9c62b54252774f7bb15b3513cfed1e71e537f87d20957b01",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mgeko",
-      "name": "Mgeko",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mgeko.kyyrule",
-      "packageBytes": 2350,
-      "packageSha256": "c6ab11492771c5603a8bcc9eedb981cd97df9045e27fe6d4e52d9de63ff95588",
-      "contentRating": "mature"
+      "name": "Mgeko（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mgeko.kyyrule",
+      "packageBytes": 2497,
+      "packageSha256": "b57da892c4599fdc20638a7feffa40e3acce93b79af4050cf6f980c6b9167128",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangafire",
-      "name": "MangaFire",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangafire.kyyrule",
-      "packageBytes": 1849,
-      "packageSha256": "654d0935cc78f32aea818f12d7979e3a8e9ed3447c8ba4b14c7051c96883ee4a",
-      "contentRating": "adult"
+      "name": "MangaFire（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangafire.kyyrule",
+      "packageBytes": 2098,
+      "packageSha256": "b6083aa6a4cd1295b4417e0ab225c747d5ccab98e84112570696ee4bd0f2885d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangakatana",
-      "name": "MangaKatana",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangakatana.kyyrule",
-      "packageBytes": 2848,
-      "packageSha256": "da2cf489fa47d96a0df6c636c708b9e20947fd8027e70d9828247be756301d0c",
-      "contentRating": "adult"
+      "name": "MangaKatana（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangakatana.kyyrule",
+      "packageBytes": 3016,
+      "packageSha256": "928b3352c35985d8b32a603a7c5462bfd48635af09b094cca338d989f5622c15",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangahubio",
-      "name": "MangaHub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangahubio.kyyrule",
-      "packageBytes": 2084,
-      "packageSha256": "05f8a1c0072bd0b785023a5fd40991f7f8c2361fd6a241ef148a0e747ae23f72",
-      "contentRating": "mature"
+      "name": "MangaHub（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangahubio.kyyrule",
+      "packageBytes": 2284,
+      "packageSha256": "22c4933ef891bb76e97dc40394b0b4f9bffa9e0cea9779da4c37dede4f6d08d8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "toontop",
-      "name": "ToonTop",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/toontop.kyyrule",
-      "packageBytes": 2181,
-      "packageSha256": "e29fb98709a9fba822608aca6393740db74fea5729b96fc4b60ee065190ceacf",
-      "contentRating": "adult"
+      "name": "ToonTop（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/toontop.kyyrule",
+      "packageBytes": 2312,
+      "packageSha256": "e64a2ba5e2a7ed5af21508d55da79b2f3de6ec6a4f1eca4c8bc93e2758964b14",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "asurascans",
-      "name": "Asura Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/asurascans.kyyrule",
-      "packageBytes": 2353,
-      "packageSha256": "0f130d1a571168781684274193091c1a7ab4144604239a3d10b7dcb54e1144ff",
-      "contentRating": "mature"
+      "name": "Asura Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/asurascans.kyyrule",
+      "packageBytes": 2481,
+      "packageSha256": "ce59d3031fcacbe17cbb8af26b3382165ef49020a6fc7c09582808c43282eb14",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manhwaz",
-      "name": "ManhwaZ",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manhwaz.kyyrule",
-      "packageBytes": 1833,
-      "packageSha256": "6b2a3301d61203174a74b2319980e278185ac8d86a212eb5cd9fe06f5eb77fe9",
-      "contentRating": "mature"
+      "name": "ManhwaZ（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manhwaz.kyyrule",
+      "packageBytes": 2094,
+      "packageSha256": "d9fd4de95ba11475af6383d7c48f15e58ca015d32adc68707dc95fd686ba9642",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "grabber-zone",
-      "name": "Grabber Zone",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/grabber-zone.kyyrule",
-      "packageBytes": 1366,
-      "packageSha256": "470f5e36918c73d5696ae4c7fceebd3fa9139492dc289bfa365eb7cb43685383",
-      "contentRating": "teen"
+      "name": "Grabber Zone（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/grabber-zone.kyyrule",
+      "packageBytes": 1474,
+      "packageSha256": "1fbd26941b2b8c7e982c1df5c83ab0861764ae8f93734670a05333f785ad6f86",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manhwatop",
-      "name": "ManhwaTop",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manhwatop.kyyrule",
-      "packageBytes": 2246,
-      "packageSha256": "1f80672549a70570a66948f43ca028b5983fa44dd350b7b9c4fe2ef96650fce7",
-      "contentRating": "mature"
+      "name": "ManhwaTop（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manhwatop.kyyrule",
+      "packageBytes": 2438,
+      "packageSha256": "b8f49b2314ca35e73e2624001a386383f92a658348f1721084ab60d9ad4ed834",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "copymanga",
       "name": "拷贝漫画",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/copymanga.kyyrule",
-      "packageBytes": 5324,
-      "packageSha256": "61442968a4ef6741fa3799ee30f7ba82c89c9e30156d09604a1a481bc7851790",
-      "contentRating": "adult"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/copymanga.kyyrule",
+      "packageBytes": 6150,
+      "packageSha256": "42da18c4028deda210040e20ad62b6c3f4c6d774158ea67feb1486a62a6df0d2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manhuascans-org",
-      "name": "GodaComic",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manhuascans-org.kyyrule",
-      "packageBytes": 2398,
-      "packageSha256": "a8e57fe2f2d1081052e508aa9dc47dd7538f9dd55934f52279434fa3ecd9599d",
-      "contentRating": "mature"
+      "name": "GodaComic（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manhuascans-org.kyyrule",
+      "packageBytes": 2580,
+      "packageSha256": "2ca26b30e5d65ce7116d2447302ff1f488a227d53702b49b086cf6c7d03d16e7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manhwa18",
-      "name": "Manhwa18",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manhwa18.kyyrule",
-      "packageBytes": 1901,
-      "packageSha256": "ac4b692b789554bdcd995e37307d3b2b7598f3fdf7bb7493ca8c29c920cb6e50",
-      "contentRating": "adult"
+      "name": "Manhwa18（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manhwa18.kyyrule",
+      "packageBytes": 1933,
+      "packageSha256": "895323b194a20ddd6d7baf5ac62717482fa16f2f476215fad680d9267c68a23a",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "2cycomic",
       "name": "次元",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/2cycomic.kyyrule",
-      "packageBytes": 2044,
-      "packageSha256": "f35de9ea46c6f753e75debb229b09efb4b8cf0ee10f4004220e61ebae91e9626",
-      "contentRating": "mature"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/2cycomic.kyyrule",
+      "packageBytes": 3301,
+      "packageSha256": "c46142a408e50934382e8839416efc2aff851830b860db8c9bbcfe3061dbc8b7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangaepic",
-      "name": "MangaEPIC",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangaepic.kyyrule",
-      "packageBytes": 1541,
-      "packageSha256": "69bcd25b2755aca650689c338cb52a9cfb1492d76adbc9669dac5406977d2a81",
-      "contentRating": "teen"
+      "name": "MangaEPIC（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangaepic.kyyrule",
+      "packageBytes": 1582,
+      "packageSha256": "0d15438eacd4027dc48142a2bc61fe907b6258cb70ac7d91800eb3661d1f338f",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-1manga-co",
-      "name": "1Manga.co",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-1manga-co.kyyrule",
-      "packageBytes": 2261,
-      "packageSha256": "e9cfbba36b11ffdf6007c6018c5403d1a9713919de14391ba7aeb83d7fdf2410",
-      "contentRating": "mature"
+      "name": "1Manga.co（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-1manga-co.kyyrule",
+      "packageBytes": 2384,
+      "packageSha256": "425ec8b14a18de285f7264cc6a6876f4cf8d75762ac52d52a1cecefbfd1a782d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-big-comics",
-      "name": "Big Comics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-big-comics.kyyrule",
-      "packageBytes": 2276,
-      "packageSha256": "ea3e6e13073ad368554d70e54a98e2347b5d435456b5fc1a6f637f0d5b9d5cf0",
-      "contentRating": "mature"
+      "name": "Big Comics（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-big-comics.kyyrule",
+      "packageBytes": 2373,
+      "packageSha256": "0aeef79fdc2b1923dd8446ca5ce8600350c4b2a1c05d1b38cebeaed414266512",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-blue-solo",
-      "name": "Blue Solo",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-blue-solo.kyyrule",
-      "packageBytes": 1264,
-      "packageSha256": "96c5748103d498a3221ab00f46240fe00bd8ed0dda8b8bae35e2446340c2a4fe",
-      "contentRating": "mature"
+      "name": "Blue Solo（法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-blue-solo.kyyrule",
+      "packageBytes": 1394,
+      "packageSha256": "3002cc51d214acbe456727b52a8e44e916d6cc5beaf7baed583bf7117acbd2a7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-champion-cross",
-      "name": "Champion Cross",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-champion-cross.kyyrule",
-      "packageBytes": 2292,
-      "packageSha256": "7de6cec7ecd543399631b3cebd60787a369c9880feecef03719eec108d43b804",
-      "contentRating": "mature"
+      "name": "Champion Cross（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-champion-cross.kyyrule",
+      "packageBytes": 2386,
+      "packageSha256": "f2652f0b86bf5c116d20f1cdc1a29d0f82c37706087d1750b2ff7e426c6c5115",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-days",
-      "name": "Comic Days",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-days.kyyrule",
-      "packageBytes": 1534,
-      "packageSha256": "fc1df0b8d1bccf5c1203d5d6127325cbeda6ba995f03260b7e22f61ad1f39196",
-      "contentRating": "mature"
+      "name": "Comic Days（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-days.kyyrule",
+      "packageBytes": 1670,
+      "packageSha256": "36b466bcd1f751d1200c068519dcc6e70e5b1d14d8a6ed0634f0583662e4b06e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-earth-star",
-      "name": "Comic Earth Star",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-earth-star.kyyrule",
-      "packageBytes": 1549,
-      "packageSha256": "ca0fc89a45c0cadd2ca0871d1c8b291e69b254e429e331babb5b862329f7cbc5",
-      "contentRating": "mature"
+      "name": "Comic Earth Star（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-earth-star.kyyrule",
+      "packageBytes": 1682,
+      "packageSha256": "5f35c3ae423f25e2bfe4bfd3d259d0de64ae23dc28e18534429a414397eb6425",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-gardo",
-      "name": "Comic Gardo",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-gardo.kyyrule",
-      "packageBytes": 1958,
-      "packageSha256": "157129f81bff63912baf932f79d7d118853e43cac88af37d556afdc14eb88d87",
-      "contentRating": "mature"
+      "name": "Comic Gardo（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-gardo.kyyrule",
+      "packageBytes": 2061,
+      "packageSha256": "fbe3d3d75ccdc7143a26627daf41f2e60c7b8d173bdaaae1943825e17297f447",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-pash",
-      "name": "Comic Pash",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-pash.kyyrule",
-      "packageBytes": 2238,
-      "packageSha256": "0d05888703d98d4d652114890b49dd7444b0c77720acd7a60f67c1bbfec8d8bc",
-      "contentRating": "mature"
+      "name": "Comic Pash（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-pash.kyyrule",
+      "packageBytes": 2334,
+      "packageSha256": "c88678b424cd040a0f0d83628f71516eef7248162be451d28d92000e1331ab47",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-ride",
-      "name": "Comic Ride",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-ride.kyyrule",
-      "packageBytes": 2280,
-      "packageSha256": "64ae8222b8d775a9d275a4b0e0c468cd94852fe39075970ef02d864788c1290e",
-      "contentRating": "mature"
+      "name": "Comic Ride（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-ride.kyyrule",
+      "packageBytes": 2373,
+      "packageSha256": "edd0848a2652fb641091c6eb73192783b6a6715791882951c5db576e2fd94c93",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comic-y-ours",
-      "name": "Comic Y-OURs",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comic-y-ours.kyyrule",
-      "packageBytes": 1858,
-      "packageSha256": "5f7e07cecd4bb24edaf55d00d580df1fb1c8630a273bc08c6e518058fb9ae09e",
-      "contentRating": "mature"
+      "name": "Comic Y-OURs（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comic-y-ours.kyyrule",
+      "packageBytes": 1977,
+      "packageSha256": "847ebf5d92e67c14d0a4ffe5fbebc783f7e8b1f983c28d1c681714c8cb91b6d1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-dankefurslesen",
-      "name": "Danke fürs Lesen",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-dankefurslesen.kyyrule",
-      "packageBytes": 1829,
-      "packageSha256": "cab084268181e9e7fd1961f342e7141b45c41d387d86f55762cc4fcd53a95a9b",
-      "contentRating": "adult"
+      "name": "Danke fürs Lesen（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-dankefurslesen.kyyrule",
+      "packageBytes": 1984,
+      "packageSha256": "f2032967ed3a3c01409dad3036eb29ee761136280022c0ed24e7901b0c8d7dea",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-death-toll-scans",
-      "name": "Death Toll Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-death-toll-scans.kyyrule",
-      "packageBytes": 1358,
-      "packageSha256": "4f262ac56e1af9504d38f58cbb3b7bab6c9f553b02fe8d2ec5a975fa3f5de689",
-      "contentRating": "mature"
+      "name": "Death Toll Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-death-toll-scans.kyyrule",
+      "packageBytes": 1472,
+      "packageSha256": "083d197e9461f3ea9475252f4aa0ce6e24a4f96c4d105cfe78afe7bb5c22f33b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-vi-dilib",
-      "name": "Digital Library",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-vi-dilib.kyyrule",
-      "packageBytes": 1276,
-      "packageSha256": "9fd1f8b9e37871843e4f6111d17391b49a91a381d1d3a8c2d34034ecc934c6c0",
-      "contentRating": "mature"
+      "name": "Digital Library（越南语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-vi-dilib.kyyrule",
+      "packageBytes": 1426,
+      "packageSha256": "f0209a1cfdf966e98d16c7a814932bf7f5b011de8a1d0dcac1d4b57938c78169",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-es-eternalmangas",
-      "name": "EternalMangas",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-es-eternalmangas.kyyrule",
-      "packageBytes": 1364,
-      "packageSha256": "4db64a2523b6901c24b775a0edb2556da03547208a3924c62cdda18b29100032",
-      "contentRating": "mature"
+      "name": "EternalMangas（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-es-eternalmangas.kyyrule",
+      "packageBytes": 1514,
+      "packageSha256": "8e33876d48bd8fce21deb9fd978e8998c0db72233f9399f025703fefc2690b5e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-ezmanga",
-      "name": "EzManga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-ezmanga.kyyrule",
-      "packageBytes": 1562,
-      "packageSha256": "a957a37d6401fa47b91f1bfa0ec45d7891fc121f1fb4c980176631b47e12588f",
-      "contentRating": "mature"
+      "name": "EzManga（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-ezmanga.kyyrule",
+      "packageBytes": 1706,
+      "packageSha256": "61abbac52770517a0601da6b5ebd103e1ad007cff71f9e4be530eaee5286c80e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-flamecomics",
-      "name": "Flame Comics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-flamecomics.kyyrule",
-      "packageBytes": 1326,
-      "packageSha256": "c655cdcc88e393c5c4612358ee4b16bbf2f85f0bfa90e893761e98d36617bfd4",
-      "contentRating": "mature"
+      "name": "Flame Comics（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-flamecomics.kyyrule",
+      "packageBytes": 1472,
+      "packageSha256": "9eb28fdbd3793c7147a67c0b250848ebed207540506c1060cc93cb3f755f7dfe",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-fr-fmteam",
-      "name": "FMTeam.fr",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-fr-fmteam.kyyrule",
-      "packageBytes": 1221,
-      "packageSha256": "04776da60e0bdc5df29887002449f9b8bafd64670f6e8f2b23dcc17ebb39cdc3",
-      "contentRating": "mature"
+      "name": "FMTeam.fr（法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-fr-fmteam.kyyrule",
+      "packageBytes": 1365,
+      "packageSha256": "c0c346b0c10f0e7e97f9bf5cf7b6cc247ed619d15053fbd54281c15790afbdb0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-vi-foxtruyen",
-      "name": "FoxTruyen",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-vi-foxtruyen.kyyrule",
-      "packageBytes": 1318,
-      "packageSha256": "be5c52c3db98579e8f5610c3b8c9367cdfa7422c12002412f037812ef549a51c",
-      "contentRating": "mature"
+      "name": "FoxTruyen（越南语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-vi-foxtruyen.kyyrule",
+      "packageBytes": 1468,
+      "packageSha256": "ebf3888500a3c15c83258f1ce0ccf2a7a19d4481fef21e431262bc5dcb5f0357",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-g-comi",
-      "name": "G-Comi",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-g-comi.kyyrule",
-      "packageBytes": 2150,
-      "packageSha256": "d00d34b69f4be66f0257ffb699349aef78814078b43553ff4fd5aa2221610f58",
-      "contentRating": "mature"
+      "name": "G-Comi（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-g-comi.kyyrule",
+      "packageBytes": 2250,
+      "packageSha256": "9c3f015401c6a87d14eafa0108ef0ffd9b6846665b8f4d3723ab70ac38b516b8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-gto-the-great-site",
-      "name": "GTO The Great Site",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-gto-the-great-site.kyyrule",
-      "packageBytes": 1294,
-      "packageSha256": "4a8810cc9f0e87310d393f82d651177583694f4775075e9b91eda1d5cf383563",
-      "contentRating": "mature"
+      "name": "GTO The Great Site（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-gto-the-great-site.kyyrule",
+      "packageBytes": 1437,
+      "packageSha256": "a1bb2926cc5b74e93b5147598466d18be687bd9b6043f11af64f5a3c56747e3f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-guya",
-      "name": "Guya",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-guya.kyyrule",
-      "packageBytes": 1304,
-      "packageSha256": "889b4b124dac037de8f6a9befe3e0c5b273152a02c7883b95d819d5bc44aae7f",
-      "contentRating": "mature"
+      "name": "Guya（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-guya.kyyrule",
+      "packageBytes": 1445,
+      "packageSha256": "91a0e3c5d752ef5c16c6a759f9b45d2890743b4f1ae3955c21b2ef4bf1b68108",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hana-to-yume",
-      "name": "Hana To Yume+",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hana-to-yume.kyyrule",
-      "packageBytes": 2292,
-      "packageSha256": "5176b577fa3bcbed8f22cc52b8f2f9b323fbe17f02a54df93e1e529b25ab8dfb",
-      "contentRating": "mature"
+      "name": "Hana To Yume+（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hana-to-yume.kyyrule",
+      "packageBytes": 2388,
+      "packageSha256": "6005435746c8b2709ea0ff3f2cc82575d5974792bf71022439118fe055df058f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hero-s-web",
-      "name": "HERO'S Web",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hero-s-web.kyyrule",
-      "packageBytes": 2232,
-      "packageSha256": "bf413482e2ac02ae2f7fc4765baef44810e14496d249fc2c69b82c1bc8a63467",
-      "contentRating": "mature"
+      "name": "HERO'S Web（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hero-s-web.kyyrule",
+      "packageBytes": 2330,
+      "packageSha256": "5a22f4d7ef6d4b037d6d1599ffebbd86c73abb211a5b38ee7ce7fd7dbf050905",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hijala-scans",
-      "name": "Hijala Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hijala-scans.kyyrule",
-      "packageBytes": 2064,
-      "packageSha256": "98a00c76338b313efe242b2794b89b0710fe790fccbbd6a07735c1519ae73b78",
-      "contentRating": "mature"
+      "name": "Hijala Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hijala-scans.kyyrule",
+      "packageBytes": 2204,
+      "packageSha256": "ed34c264f301bdcbb358d776ebf5e5acad8acfa0b0a8173f0ebcd527017e4965",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hni-scantrad",
-      "name": "HNI-Scantrad",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hni-scantrad.kyyrule",
-      "packageBytes": 1272,
-      "packageSha256": "9db44519929c674273856428e22b95a15542932430445c6551284c601f1df551",
-      "contentRating": "mature"
+      "name": "HNI-Scantrad（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hni-scantrad.kyyrule",
+      "packageBytes": 1406,
+      "packageSha256": "24b9881b792cd6289398f19bc74965de6f32983ec6f5f2da6a7f56d0ed004f1b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ichicomi",
-      "name": "Ichicomi",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ichicomi.kyyrule",
-      "packageBytes": 2945,
-      "packageSha256": "e9ca1383b6e19ccf64e03aa3d2f0a4c15a369d068dc4bd943f8017416123807d",
-      "contentRating": "mature"
+      "name": "Ichicomi（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ichicomi.kyyrule",
+      "packageBytes": 3038,
+      "packageSha256": "64f844e4032ed0eb0ab1135a68922b4433f18b3ed4ef4f2e0e29f756ddacb8fc",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-j-n-books",
-      "name": "J-N Books",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-j-n-books.kyyrule",
-      "packageBytes": 2098,
-      "packageSha256": "d5ed4e2e85572f03630a319433a5c4a76c8aebdced2ab4925cf6607dae0fda84",
-      "contentRating": "mature"
+      "name": "J-N Books（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-j-n-books.kyyrule",
+      "packageBytes": 2201,
+      "packageSha256": "7c498ea5086e40f473ea8a95008778b142b999f82f1ff2db30854411e8e9751b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-juin-jutsu-team-reader",
-      "name": "Juin Jutsu Team Reader",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-juin-jutsu-team-reader.kyyrule",
-      "packageBytes": 1380,
-      "packageSha256": "89e6dc2debb967be876691439fb21333b8ec31ef1db547eb24360cd4d11782b9",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-kayn-scans",
-      "name": "Kayn Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kayn-scans.kyyrule",
-      "packageBytes": 2106,
-      "packageSha256": "79fdcffef65cf7007a3f9c947c75d0e0e884dfbe746fa7aa8f57a2107e8f4b61",
-      "contentRating": "mature"
+      "name": "Juin Jutsu Team Reader（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-juin-jutsu-team-reader.kyyrule",
+      "packageBytes": 1506,
+      "packageSha256": "5e21b99c58a3b19543d3ec4ff3ddce31bcf224c14e0cf4efe89e0acd8eb8414e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ken-scans",
-      "name": "Ken Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ken-scans.kyyrule",
-      "packageBytes": 1937,
-      "packageSha256": "6c00be5e4d442d9518fca52fdc0d343b76cf5805561cb5dbbb96f847aeac678c",
-      "contentRating": "mature"
+      "name": "Ken Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ken-scans.kyyrule",
+      "packageBytes": 2076,
+      "packageSha256": "e2bd14e863c3a5b02e4700a4cc6a02b4c119251d02dd44b6a51fd3bc1a6991e1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-kimicomi",
-      "name": "KimiComi",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kimicomi.kyyrule",
-      "packageBytes": 2236,
-      "packageSha256": "4ba4bbbe453a7b59464ee486ca31a167d96a6be5c314d31d8d7cd648643eb64a",
-      "contentRating": "mature"
+      "name": "KimiComi（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-kimicomi.kyyrule",
+      "packageBytes": 2336,
+      "packageSha256": "e5c131686da60764890e45093e5cfc2b9d835538470cd91d4486f067e63d9bf7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-kurage-bunch",
-      "name": "Kurage Bunch",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kurage-bunch.kyyrule",
-      "packageBytes": 1886,
-      "packageSha256": "f6752248ba5f48348994e65a570d4ec5c3145baf384300fd0d386b4ce85123b4",
-      "contentRating": "mature"
+      "name": "Kurage Bunch（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-kurage-bunch.kyyrule",
+      "packageBytes": 2004,
+      "packageSha256": "8ae3d598df87e5c65a38a0077bbf046c36feb502a3db4a8cf7cb9f6874cd7f80",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lolivault",
-      "name": "Lolivault",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lolivault.kyyrule",
-      "packageBytes": 1332,
-      "packageSha256": "8b991e3c5728db1fff5172d69d5c7f84d74ab6e5294ebfecb3c7d889f155d61a",
-      "contentRating": "mature"
+      "name": "Lolivault（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lolivault.kyyrule",
+      "packageBytes": 1460,
+      "packageSha256": "51e01b46582e097677229624be27bd41805942513e8c17cf9c0480470ef84555",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lupiteam",
-      "name": "LupiTeam",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lupiteam.kyyrule",
-      "packageBytes": 1258,
-      "packageSha256": "1ffa9e300de48094e8a13482f469690ae8affd136b481a1fc60b9ca572ea70af",
-      "contentRating": "mature"
+      "name": "LupiTeam（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lupiteam.kyyrule",
+      "packageBytes": 1401,
+      "packageSha256": "3c165ea3a3e85b448736bbb7dd5be876f38a1a2ed0c81d22b6b584e872ca60f1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-magcomi",
-      "name": "MAGCOMI",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-magcomi.kyyrule",
-      "packageBytes": 1969,
-      "packageSha256": "e60720c62a34473707e67e2de40f8c0b8c0e878312ad0d7dad0e4c092aea8e00",
-      "contentRating": "mature"
+      "name": "MAGCOMI（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-magcomi.kyyrule",
+      "packageBytes": 2069,
+      "packageSha256": "46dcf19dfbed7f373e8029e92088ed4d2764f5fc900e9d6437bb1a9c63441adb",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-magkan",
-      "name": "MagKan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-magkan.kyyrule",
-      "packageBytes": 2004,
-      "packageSha256": "18b00fb11acec3069e71a78cc3950d2ac025506dee6bf1c3118f3fa549a50dd7",
-      "contentRating": "mature"
+      "name": "MagKan（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-magkan.kyyrule",
+      "packageBytes": 2110,
+      "packageSha256": "eb42e1f0e1ecc0bbcf7799bc3ebcd1d5158edf238ec2091c1c1059ba5c745cb7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-ja-mangamura",
-      "name": "Manga Mura",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-ja-mangamura.kyyrule",
-      "packageBytes": 1746,
-      "packageSha256": "3c10584f6de3b77766c41f953ce0a9a86753e67765f59491c7f3975d26aa1b9e",
-      "contentRating": "mature"
+      "name": "Manga Mura（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-ja-mangamura.kyyrule",
+      "packageBytes": 1866,
+      "packageSha256": "1cbdc59e6ec76d86af100b25c157bf61639d72de3cb7d62126e808b03953ae93",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manga-corporation",
-      "name": "Manga-Corporation",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manga-corporation.kyyrule",
-      "packageBytes": 1274,
-      "packageSha256": "aabdddbe6e839e03f2c26a68188655e5fcdeb07518d67dab4cb106f4e907b8d4",
-      "contentRating": "mature"
+      "name": "Manga-Corporation（法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manga-corporation.kyyrule",
+      "packageBytes": 1406,
+      "packageSha256": "8b1509329d62436e6ae352f8f74983743d16981c3f2803a039fb78625f1d530c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangabang-comics",
-      "name": "MangaBang Comics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangabang-comics.kyyrule",
-      "packageBytes": 1994,
-      "packageSha256": "4c64d59b6c02aba4c7183ff2350a13ec0c7269aa1e9c43b5786e9c9e625378b3",
-      "contentRating": "mature"
+      "name": "MangaBang Comics（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangabang-comics.kyyrule",
+      "packageBytes": 2108,
+      "packageSha256": "72e3c3f08694aa8002493e751245045fd69d63e910eb12b41c3cd3e7cfac4ea4",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-mangademon",
-      "name": "MangaDemon",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-mangademon.kyyrule",
-      "packageBytes": 1570,
-      "packageSha256": "1cf861bdcd5a4e820f1e7db7a1f58e91bf06a280fd32414d2c67b5d185f227ab",
-      "contentRating": "mature"
+      "name": "MangaDemon（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-mangademon.kyyrule",
+      "packageBytes": 1721,
+      "packageSha256": "91039fa1cd9a07cdecd033fc19083e7dfa02995681c11a1d23eff78383e61071",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangafox-fun",
-      "name": "MangaFox.fun",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangafox-fun.kyyrule",
-      "packageBytes": 2258,
-      "packageSha256": "5ad208266b0c075f3c0cbbd8ca8ff1a578482bc9053a448b8ad43b7b7e135043",
-      "contentRating": "mature"
+      "name": "MangaFox.fun（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangafox-fun.kyyrule",
+      "packageBytes": 2372,
+      "packageSha256": "41a303586c7ba270aaef84c4b02ff1417ca2e72f70fd8d82f0993834e0cc1236",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangahere-onl",
-      "name": "MangaHere.onl",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangahere-onl.kyyrule",
-      "packageBytes": 2268,
-      "packageSha256": "1fc3cfeda5938a0776aac3e9df17d714403718b4acbb8709a4d021ad515f906d",
-      "contentRating": "mature"
+      "name": "MangaHere.onl（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangahere-onl.kyyrule",
+      "packageBytes": 2382,
+      "packageSha256": "b4da7324272d9938f182de0ed658d461bc75004e2c7a99d72c80883f75fe5634",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangakakalot-fun",
-      "name": "Mangakakalot.fun",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangakakalot-fun.kyyrule",
-      "packageBytes": 2270,
-      "packageSha256": "93fc4ad3c725bd3c7c7c86969cbac5b059fadeab19094d8876e02fb97396e2d5",
-      "contentRating": "mature"
+      "name": "Mangakakalot.fun（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangakakalot-fun.kyyrule",
+      "packageBytes": 2388,
+      "packageSha256": "2b29235b949ec4e26d6bc9a55aa7facbb16b7533121fd2becff4eab08f63d2c3",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manganel",
-      "name": "MangaNel",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manganel.kyyrule",
-      "packageBytes": 2270,
-      "packageSha256": "2791b818be3b858da3014e51b46dc26755cc9f822da0fc78e0ae9ca6681b5f88",
-      "contentRating": "mature"
+      "name": "MangaNel（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manganel.kyyrule",
+      "packageBytes": 2384,
+      "packageSha256": "ed0e9e950803643ccdc85793cad97eb9bf335cfa70f2301fbf28256ccee12676",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangaonline-fun",
-      "name": "MangaOnline.fun",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangaonline-fun.kyyrule",
-      "packageBytes": 2285,
-      "packageSha256": "0027161e7964f6e356ccdf0f053b06d0a914727a1b4a5de979ff3ab0bb7831d3",
-      "contentRating": "mature"
+      "name": "MangaOnline.fun（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangaonline-fun.kyyrule",
+      "packageBytes": 2398,
+      "packageSha256": "76a458d907fc1e3ee5a471c5e5dc8b4b8e4d084150df05e5d7bcb2debcbde26c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangatellers",
-      "name": "Mangatellers",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangatellers.kyyrule",
-      "packageBytes": 1329,
-      "packageSha256": "de2793dc34b9b703d4d78699833af3d2288460a3a9a082640f2525d46e3e7c5c",
-      "contentRating": "mature"
+      "name": "Mangatellers（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangatellers.kyyrule",
+      "packageBytes": 1445,
+      "packageSha256": "b83863039b5f859718b0131e08fadd5fc272e0614f324baaf46024a33e43d28d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangatoday",
-      "name": "MangaToday",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangatoday.kyyrule",
-      "packageBytes": 2274,
-      "packageSha256": "e0cc03b0fe967dbcfd1c25a006cd1200818d904aec71c00d748ac54b901dd039",
-      "contentRating": "mature"
+      "name": "MangaToday（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangatoday.kyyrule",
+      "packageBytes": 2392,
+      "packageSha256": "d0fb45f1d2aae77f628d8649024de52a813b2a7c186fb72db2d2abc42dafd38f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-it-mangaworld",
-      "name": "MangaWorld",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-it-mangaworld.kyyrule",
-      "packageBytes": 1245,
-      "packageSha256": "bc0a684a608cf980b4dcc8365b28460da6c67b46b2741c5d188ececb9e3780ee",
-      "contentRating": "mature"
+      "name": "MangaWorld（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-it-mangaworld.kyyrule",
+      "packageBytes": 1397,
+      "packageSha256": "b918d7c783f1139c1b47b84c1e91d36f8a6e172bb576e033fba9ac987162b42a",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-it-mangaworldadult",
-      "name": "MangaWorldAdult",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-it-mangaworldadult.kyyrule",
-      "packageBytes": 1254,
-      "packageSha256": "517793df43e194d6eed855119381985eba6e901f30858a5e63ccf33fe3067d06",
-      "contentRating": "adult"
+      "name": "MangaWorldAdult（成人意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-it-mangaworldadult.kyyrule",
+      "packageBytes": 1414,
+      "packageSha256": "0889f1f74484dc2bbb0a54ce8984774d989aea7f275ecddabb37c54ad5dd0c9f",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-manhuaplusorg",
-      "name": "Manhuaplus.org",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-manhuaplusorg.kyyrule",
-      "packageBytes": 1660,
-      "packageSha256": "4000fa4e653e1cca396f2987e50ff8a3f461d06bee83ee37a95229b4b300f7a4",
-      "contentRating": "mature"
+      "name": "Manhuaplus.org（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-manhuaplusorg.kyyrule",
+      "packageBytes": 1812,
+      "packageSha256": "81fc0bb6ab263a899167b12140e25f112c4a5ca73cdcf409fcf2643a0e0bdca0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-menudo-fansub",
-      "name": "Menudo-Fansub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-menudo-fansub.kyyrule",
-      "packageBytes": 1349,
-      "packageSha256": "142b1b39ac6042d6574471a6b785abd0117d6e680ce763b0cdd260515584414e",
-      "contentRating": "mature"
+      "name": "Menudo-Fansub（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-menudo-fansub.kyyrule",
+      "packageBytes": 1472,
+      "packageSha256": "a5c6b3f3be9745b5cf897b315930bd3c663aa1f2b1487718d75b3e25ff104ed7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-id-natsu",
-      "name": "Natsu",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-id-natsu.kyyrule",
-      "packageBytes": 1653,
-      "packageSha256": "0d4a8540df962e1d9a1680e7d339bf383af35c1ecfaebf33a4ec286ff5d491c4",
-      "contentRating": "mature"
+      "name": "Natsu（印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-id-natsu.kyyrule",
+      "packageBytes": 1808,
+      "packageSha256": "5c787ba83cccef285be794abc9732a7edda044e11348647b9a599d99632d18dd",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-multi-nhentai",
-      "name": "nhentai",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-multi-nhentai.kyyrule",
-      "packageBytes": 1560,
-      "packageSha256": "f9b949202d4ae77e787287a13398a9a704652b817fd99343b79d03e5d43b7d9b",
-      "contentRating": "adult"
+      "name": "nhentai（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-multi-nhentai.kyyrule",
+      "packageBytes": 1892,
+      "packageSha256": "e59c8de29213f5c74d0cafd7021a1b305e5732605dbbb9f7ac6386c21c08e5c5",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-nifteam",
-      "name": "NIFTeam",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-nifteam.kyyrule",
-      "packageBytes": 1338,
-      "packageSha256": "0aace3a33c1faaec3351a5f3376def92f80fe45fa4d8c75204e835298f6d97a1",
-      "contentRating": "mature"
+      "name": "NIFTeam（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-nifteam.kyyrule",
+      "packageBytes": 1464,
+      "packageSha256": "dd46a73ff2f5a8362f7783d0ea99172e2e3034d2efc076e23f04cf2c84c9908d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-onemanga-info",
-      "name": "OneManga.info",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-onemanga-info.kyyrule",
-      "packageBytes": 2277,
-      "packageSha256": "ea26619723e586e80cdcfe45259368e579ac6bcf1bc247767d19c578cf5e35a2",
-      "contentRating": "mature"
+      "name": "OneManga.info（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-onemanga-info.kyyrule",
+      "packageBytes": 2400,
+      "packageSha256": "a1fd921e9580eb20249ea53d4aa23c3c0b97421574cbc6e9426e66d457381574",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-orion-scans",
-      "name": "Orion Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-orion-scans.kyyrule",
-      "packageBytes": 1948,
-      "packageSha256": "4fe9d4a6b34fb40c878abeb65947de1357714082d5cad117697b05a180cf7deb",
-      "contentRating": "mature"
+      "name": "Orion Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-orion-scans.kyyrule",
+      "packageBytes": 2084,
+      "packageSha256": "76a125576ec43d476dd5effdf633dd543cf6c47375b9b7f1286dbc167f197560",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-phoenix-scans",
-      "name": "Phoenix Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-phoenix-scans.kyyrule",
-      "packageBytes": 1276,
-      "packageSha256": "df45c513f1c95a12211c62efbc65c1844cd79874f6e3eb15f180d8d072c5121d",
-      "contentRating": "mature"
+      "name": "Phoenix Scans（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-phoenix-scans.kyyrule",
+      "packageBytes": 1413,
+      "packageSha256": "f6f5a04494291671dbe7e197b9a82337c93c5b0a946f7de20efebbc767d94774",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-renascans",
-      "name": "Renascans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-renascans.kyyrule",
-      "packageBytes": 1974,
-      "packageSha256": "4b2805ccd7bfeda4eb41d0ca690901d2148b3b47bdb54321eabb06705e5cdb8c",
-      "contentRating": "mature"
+      "name": "Renascans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-renascans.kyyrule",
+      "packageBytes": 2116,
+      "packageSha256": "16a89329b7c07becc0e7049a380ef328073886fdb357e24f2e8b24b68a9a20b1",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-rimacomiplus",
-      "name": "RimacomiPlus",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-rimacomiplus.kyyrule",
-      "packageBytes": 2034,
-      "packageSha256": "9841c570ad8869108475e14d8ee99baf76239fce702429a4301123933ce3e933",
-      "contentRating": "mature"
+      "name": "RimacomiPlus（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-rimacomiplus.kyyrule",
+      "packageBytes": 2142,
+      "packageSha256": "0b2b82f255874625b46392f8961e6c8087f33a2f4c841157a62f6fb7a00971ca",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sana-scans",
-      "name": "Sana Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sana-scans.kyyrule",
-      "packageBytes": 1746,
-      "packageSha256": "118f7699bdc5a2bf50abb16b769879e0426870f9524a5c7aaa4e71135294fc78",
-      "contentRating": "mature"
+      "name": "Sana Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sana-scans.kyyrule",
+      "packageBytes": 1885,
+      "packageSha256": "f6b8270e5bfc214d936f8b6e177dd0e2a057aa17129ba7ed6fbebdfe06a16a5b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-shonen-jump",
-      "name": "Shonen Jump+",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-shonen-jump.kyyrule",
-      "packageBytes": 1980,
-      "packageSha256": "d99ddb291f4eeeec94e60aa2a05cfcc003fc12917e1703d5ed0d8b0a3e4169c0",
-      "contentRating": "mature"
+      "name": "Shonen Jump+（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-shonen-jump.kyyrule",
+      "packageBytes": 2080,
+      "packageSha256": "8f67befd6073360a432d4c556f6c2d0c7cd2007c5554693462e8dad67429279b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sunday-web-every",
-      "name": "Sunday Web Every",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sunday-web-every.kyyrule",
-      "packageBytes": 1928,
-      "packageSha256": "974cf8e8f65214ada62b71024194ff10ba8206682e64cabf211cd522a2071e52",
-      "contentRating": "mature"
+      "name": "Sunday Web Every（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sunday-web-every.kyyrule",
+      "packageBytes": 2040,
+      "packageSha256": "7e9f293e34d662f4d0693b6f7506cb68c23d50ea6541fc18ff2a76899c3519ea",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-takecomic",
-      "name": "TakeComic",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-takecomic.kyyrule",
-      "packageBytes": 2218,
-      "packageSha256": "bd55f4ab794cb79e129125425948d58ca6be3977d0b429cd90c4a91eadb13048",
-      "contentRating": "mature"
+      "name": "TakeComic（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-takecomic.kyyrule",
+      "packageBytes": 2320,
+      "packageSha256": "be78aec47706edb25ede08d942972a22ae48046fcc30ae07a02f84348d52089c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-tcbscans",
-      "name": "TCB Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-tcbscans.kyyrule",
-      "packageBytes": 1357,
-      "packageSha256": "b2cd5b444f7419dcdbcc57188759a9dbfe9b2043f22dfde981e6d19319bce29c",
-      "contentRating": "mature"
+      "name": "TCB Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-tcbscans.kyyrule",
+      "packageBytes": 1505,
+      "packageSha256": "32a2b5dbf31a1a499591e740d02fe051fe92f306e19be3801381a8491c3f6378",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tonari-no-young-jump",
-      "name": "Tonari no Young Jump",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tonari-no-young-jump.kyyrule",
-      "packageBytes": 2004,
-      "packageSha256": "ddc24feb5fdcc9366b81365b1461e5336999c264442ca541cf4f9e22a2e7015a",
-      "contentRating": "mature"
+      "name": "Tonari no Young Jump（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tonari-no-young-jump.kyyrule",
+      "packageBytes": 2109,
+      "packageSha256": "0c33683bb4c3abcb4d760db30b0bb41c506c66d0bace1d22dcfc330101f28a0e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-vi-truyenqq2",
-      "name": "TruyenQQ2",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-vi-truyenqq2.kyyrule",
-      "packageBytes": 1318,
-      "packageSha256": "6830c12d05ba7c0d41840efdbe724a4766ff5ffe292e08323d9fc7faf3a31125",
-      "contentRating": "mature"
+      "name": "TruyenQQ2（越南语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-vi-truyenqq2.kyyrule",
+      "packageBytes": 1469,
+      "packageSha256": "0a1aa59bbb8abec17057176513fa8cc7b5d0fa8b00e773c2dff50e49b2b5e718",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tuttoanimemanga",
-      "name": "TuttoAnimeManga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tuttoanimemanga.kyyrule",
-      "packageBytes": 1272,
-      "packageSha256": "71c04e434bc4fc957aed40d42ca3ba4a2433d46e14a19e800bcb670c7d189721",
-      "contentRating": "mature"
+      "name": "TuttoAnimeManga（意大利语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tuttoanimemanga.kyyrule",
+      "packageBytes": 1414,
+      "packageSha256": "05559ff911f1eb06c0fe49eb18b417f0bf2a90833cde833fc48554800f12fe9b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-weebcentral",
-      "name": "Weeb Central",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-weebcentral.kyyrule",
-      "packageBytes": 1633,
-      "packageSha256": "385d33bccb34a660560bf63015e17c6b918c0db9f782348a02104e5a6374dc5e",
-      "contentRating": "mature"
+      "name": "Weeb Central（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-weebcentral.kyyrule",
+      "packageBytes": 1786,
+      "packageSha256": "efec8d23b785fcfff067c00173cbe16bed63824849ddd6a79070f96588dc244f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-young-animal",
-      "name": "Young Animal",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-young-animal.kyyrule",
-      "packageBytes": 2244,
-      "packageSha256": "55e24bc051993d633770c54bb144da76bada9d374df8d966ce85c5bdfa1ec312",
-      "contentRating": "mature"
+      "name": "Young Animal（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-young-animal.kyyrule",
+      "packageBytes": 2344,
+      "packageSha256": "947d14f703473bc50653726f0ffeea78dd267bf56fdcf263545e9d1e990cc8d5",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-young-champion",
-      "name": "Young Champion",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-young-champion.kyyrule",
-      "packageBytes": 2290,
-      "packageSha256": "1a9531d24bc0fbcb6b9b4ffa3feec491cab3ed1e2448b35b1da57137b5442fab",
-      "contentRating": "mature"
+      "name": "Young Champion（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-young-champion.kyyrule",
+      "packageBytes": 2388,
+      "packageSha256": "ead6ca5898475210db20366ccdd28fffc7f22c420bb6090ac4ca29693447b51e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-zenon",
-      "name": "Zenon",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-zenon.kyyrule",
-      "packageBytes": 1898,
-      "packageSha256": "50186aae94b50864551890b7bebb1ac94e60516be438a53281e2eeebd3752ef6",
-      "contentRating": "mature"
+      "name": "Zenon（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-zenon.kyyrule",
+      "packageBytes": 2004,
+      "packageSha256": "43f29219d62872ac5059611a2ea01c267d9f4efaeb8aedb38a18f213d3f5b85f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-zh-zerobyw",
       "name": "zero搬运网",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-zh-zerobyw.kyyrule",
-      "packageBytes": 1324,
-      "packageSha256": "e1d4141866efdb9e479cc4a7b09babf4b76207b70dc4ef952c1064f336e7fa9e",
-      "contentRating": "mature"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-zh-zerobyw.kyyrule",
+      "packageBytes": 2960,
+      "packageSha256": "d76afd0629c97044424d3f99cbf0946db20e71bc3e91927199f3b48022b21298",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manwayu-plus",
       "name": "漫蛙2+",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manwayu-plus.kyyrule",
-      "packageBytes": 2404,
-      "packageSha256": "9fbd1319d79231a08fd87731ca9ebe218efe32a11fa4b533458d80f81a3d7d00",
-      "contentRating": "mature"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manwayu-plus.kyyrule",
+      "packageBytes": 3432,
+      "packageSha256": "8ee757083693544510a435901757d71251ee2fa3be3b537931dc082db8b07b6d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "klmanga",
-      "name": "JF",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/klmanga.kyyrule",
-      "packageBytes": 2140,
-      "packageSha256": "6a67ba072bbaf9872b894e925284754ee0a3a360560628b7e490cef23047dd3d",
-      "contentRating": "mature"
+      "name": "JF（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/klmanga.kyyrule",
+      "packageBytes": 2204,
+      "packageSha256": "8fbf9d97a7f58662183b9c31035cac550bbf17267a1ffc31bae429e73bd02f54",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "hentairox",
-      "name": "HentaiRox",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/hentairox.kyyrule",
-      "packageBytes": 1240,
-      "packageSha256": "fee5ff0d4da7a9f7e0585a7f1e62ef77c6f8a082d099a7a67f95a267c65997ec",
-      "contentRating": "adult"
+      "name": "HentaiRox（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/hentairox.kyyrule",
+      "packageBytes": 1366,
+      "packageSha256": "80d9a103a05eb74dd6c60c8e5ce2749bd93ad6ca4e2389a5878b676e621e9b3c",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "rawkuma",
-      "name": "Rawkuma",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/rawkuma.kyyrule",
-      "packageBytes": 2241,
-      "packageSha256": "38936d20a9f90d8865b726db8af52bdb42e577e7c6e2303191f92bbdb0985e91",
-      "contentRating": "mature"
+      "name": "Rawkuma（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/rawkuma.kyyrule",
+      "packageBytes": 2280,
+      "packageSha256": "daf6ead9e3e624f4dc6e73cc2bbae1e705e8f92532289fb672930862217c2e59",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "danbooru",
-      "name": "Danbooru",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/danbooru.kyyrule",
-      "packageBytes": 1146,
-      "packageSha256": "736d54639de77556e46cb12baa1a804ee4437bdc27cd0d3525317fffe9a997a1",
-      "contentRating": "adult"
+      "name": "Danbooru（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/danbooru.kyyrule",
+      "packageBytes": 1316,
+      "packageSha256": "f006c655e70aa0c4c0a6ed24091ab679f695dea0a7cd7087c4b70328a3fed7c0",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangaraw-best",
-      "name": "Manga Raw (mangaraw.best)",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangaraw-best.kyyrule",
-      "packageBytes": 1520,
-      "packageSha256": "47c3a0179349c61e44777d1baaf7479f91ac042a339bee7aeb3013f1bec18f8c",
-      "contentRating": "mature"
+      "name": "Manga Raw (mangaraw.best)（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangaraw-best.kyyrule",
+      "packageBytes": 1552,
+      "packageSha256": "a3f085e4f52c70718453bdd829178dc88a9dd2c3bdfe4ce86cc173d92a370c9a",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "e621",
-      "name": "e621",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/e621.kyyrule",
-      "packageBytes": 1162,
-      "packageSha256": "b358877dce065209104c9beaa41cc9ae3dac42564c251714c70781b20abfba81",
-      "contentRating": "adult"
+      "name": "e621（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/e621.kyyrule",
+      "packageBytes": 1298,
+      "packageSha256": "65fd80aa35f436b7bcf1487953b7350bb41a84f5a5cde47ae39bfd4698ed74c3",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "rawkuro",
-      "name": "RawKuro",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/rawkuro.kyyrule",
-      "packageBytes": 1737,
-      "packageSha256": "adb1efd03b3a7d0e82b49138a647207931f4d54b77c1ee7d6b094189e3dca4da",
-      "contentRating": "mature"
+      "name": "RawKuro（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/rawkuro.kyyrule",
+      "packageBytes": 1754,
+      "packageSha256": "cc749d1a5b2b3d4bd58863b5021eed4df5907e340ab85d5c4db17f792e848470",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "deviantart",
-      "name": "DeviantArt",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/deviantart.kyyrule",
-      "packageBytes": 1438,
-      "packageSha256": "d34d1dfb1f32f8fc1c0a9ec4aca968be69cada1fc8658427e43aefa3101729cf",
-      "contentRating": "mature"
+      "name": "DeviantArt（多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/deviantart.kyyrule",
+      "packageBytes": 1581,
+      "packageSha256": "e28ffca7b27e223887fda8f3b235e456e8e552a6238b60fd759c9912b50c3039",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "raw1001",
-      "name": "raw1001",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/raw1001.kyyrule",
-      "packageBytes": 1732,
-      "packageSha256": "ec2ee193b2c1110fc2039753e0897c20d36b47a00fc4be3812d306018915037f",
-      "contentRating": "mature"
+      "name": "raw1001（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/raw1001.kyyrule",
+      "packageBytes": 1752,
+      "packageSha256": "706db983b0702f4d9dd1685e78d632bbee7b8567797598f473ac0849cfeefa71",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangakoma",
-      "name": "Manga Koma",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangakoma.kyyrule",
-      "packageBytes": 1734,
-      "packageSha256": "dd09b49776c2851650c1e85155d0f696d8f72c0f18800dd4065e79455ed0c102",
-      "contentRating": "mature"
+      "name": "Manga Koma（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangakoma.kyyrule",
+      "packageBytes": 1752,
+      "packageSha256": "d6061a131ea08c24f9e7275449d1f215077328a2f470ba94f5bdebc42ac1a7da",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "comics-valley",
-      "name": "Comics Valley",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/comics-valley.kyyrule",
-      "packageBytes": 1974,
-      "packageSha256": "380e4d7114eaf26885578d2b7f9883d37be108e5c3961d2d71942b14162ba81e",
-      "contentRating": "mature"
+      "name": "Comics Valley（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/comics-valley.kyyrule",
+      "packageBytes": 1998,
+      "packageSha256": "f4455c3b9c0afbddf64c91a2e84e5279c95a9faf55ab99f58b24e49b9f95c027",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "manhwasky",
-      "name": "ManhwaSky",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/manhwasky.kyyrule",
-      "packageBytes": 1476,
-      "packageSha256": "03a1c8ccfadd2cb44c5ae61125d2ee46efe5f64527d9904260dbba3e89ed4903",
-      "contentRating": "adult"
+      "name": "ManhwaSky（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/manhwasky.kyyrule",
+      "packageBytes": 1513,
+      "packageSha256": "3da41111a075a1ca7d6ff30fab41f114ce38b383952d4b2bf6c9696d6d7ecf47",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "bakamh",
       "name": "巴卡漫画",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/bakamh.kyyrule",
-      "packageBytes": 2181,
-      "packageSha256": "a967ec988a4f77dd220925eca3bd13541bbdf242594086ca31e3007f1ec1ca36",
-      "contentRating": "mature"
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/bakamh.kyyrule",
+      "packageBytes": 2532,
+      "packageSha256": "3324f144c7b7fac9a874882bf5b9f6624cccf4c211fe453ad2234b1a83b8be84",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "hiperdex",
-      "name": "Hiperdex",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/hiperdex.kyyrule",
-      "packageBytes": 1845,
-      "packageSha256": "9570d1c3f939a4a6795579f2403fd07966897fe7942700b2d94fd598e18f1b88",
-      "contentRating": "adult"
+      "name": "Hiperdex（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/hiperdex.kyyrule",
+      "packageBytes": 5705,
+      "packageSha256": "b3e59df0528c15380c8ae86e364338a1201e612b552f1dde46cc67f1f07da857",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-galaxydegenscans",
-      "name": "GalaxyDegenScans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-galaxydegenscans.kyyrule",
-      "packageBytes": 2414,
-      "packageSha256": "ae250e1c59be9b421394faedb876b4f179ab7da9114463b7b55c855463b746bb",
-      "contentRating": "mature"
+      "name": "GalaxyDegenScans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-galaxydegenscans.kyyrule",
+      "packageBytes": 2512,
+      "packageSha256": "ed8751c7299bfff3e58808c315f2664f8a268f4f340a6a6a2cdaff51e9dbb437",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangasushi",
-      "name": "MangaSushi",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangasushi.kyyrule",
-      "packageBytes": 2360,
-      "packageSha256": "bb23f624a6228fe5a9c449ac6158516599bca893fe348c87ffd21143841d81ba",
-      "contentRating": "mature"
+      "name": "MangaSushi（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangasushi.kyyrule",
+      "packageBytes": 2461,
+      "packageSha256": "7c7a889b733d55fe0e224c54d126d65bd449a4d293cf49c246cae7ca5fb7049a",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manhuahot",
-      "name": "ManhuaHot",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhuahot.kyyrule",
-      "packageBytes": 2332,
-      "packageSha256": "b0a71ae22d79a3abdcb941fc95ef5b36cece423b78473a1e5f5e094a82bd8064",
-      "contentRating": "mature"
+      "name": "ManhuaHot（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manhuahot.kyyrule",
+      "packageBytes": 2438,
+      "packageSha256": "214cccffd709b48130ebf46b0e147004c1188d6a770108e4efc430373fe44c9f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manhwanex",
-      "name": "ManhwaNex",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhwanex.kyyrule",
-      "packageBytes": 2325,
-      "packageSha256": "43688fb379e17937537c5017a91fdbf30362c830bce94bccbeeab64995f1040c",
-      "contentRating": "mature"
+      "name": "ManhwaNex（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manhwanex.kyyrule",
+      "packageBytes": 2420,
+      "packageSha256": "9e8b9f1b7f46406797ae9371ff328b7fc9f6df33d0b9bd47c5a2d80c8925ad80",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tritiniascans",
-      "name": "TritiniaScans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tritiniascans.kyyrule",
-      "packageBytes": 2408,
-      "packageSha256": "f97fee5c0aa297443dff7ee0202be11a563a68734bb5e0a64ed44c40b004fd2c",
-      "contentRating": "mature"
+      "name": "TritiniaScans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tritiniascans.kyyrule",
+      "packageBytes": 2502,
+      "packageSha256": "e30d54faa1dbf85827328f680031b89b1120f5e63aa4c346644df8f65d99dcaf",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manga3asq",
-      "name": "مانجا العاشق",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manga3asq.kyyrule",
-      "packageBytes": 2254,
-      "packageSha256": "41241c1a2aa12af50dd24f3636dcafd0604b35bcb388853dbf96f5a5191a361b",
-      "contentRating": "mature"
+      "name": "مانجا العاشق（阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manga3asq.kyyrule",
+      "packageBytes": 2517,
+      "packageSha256": "112ed2024c06292ef72fe50a0f846fa12b6c390851f7f918d3665af6db2e67f9",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-bunmanga",
-      "name": "Bun Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-bunmanga.kyyrule",
-      "packageBytes": 2178,
-      "packageSha256": "3b30c0e66c0fd1ca539ea507e84a65a7873b18d9021996160fc048d5c75a3368",
-      "contentRating": "mature"
+      "name": "Bun Manga（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-bunmanga.kyyrule",
+      "packageBytes": 2430,
+      "packageSha256": "436f2483e2ce2c596f2e2883cab58a502c563ee1241a6f8b9a7156523d620fb8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-richtoscan",
-      "name": "RichtoScan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-richtoscan.kyyrule",
-      "packageBytes": 2181,
-      "packageSha256": "53b78ee75656f30b59369f58e36ded91cf0c3d67c62e2361b6568fda4d6fcbb6",
-      "contentRating": "mature"
+      "name": "RichtoScan（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-richtoscan.kyyrule",
+      "packageBytes": 2434,
+      "packageSha256": "6ad3f58829373b36ced3e99ba8ff5e1be9df398b3850bf25bb847f51a0360871",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ninjascan",
-      "name": "Ninja Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ninjascan.kyyrule",
-      "packageBytes": 2266,
-      "packageSha256": "cb2fe7c1aff1fbccd9c7e472674ad402a6f66ef9a958f86e5222bec7ddae26cd",
-      "contentRating": "mature"
+      "name": "Ninja Scan（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ninjascan.kyyrule",
+      "packageBytes": 2592,
+      "packageSha256": "d8c5004d7253d81c07e47306dae0eced07c231cf19dd6a926c7d490b0c45e802",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangawow",
-      "name": "MangaWOW",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangawow.kyyrule",
-      "packageBytes": 2193,
-      "packageSha256": "79904eb2403a907ddfeb5ceb0235346ebb953a842a33332b2c11c474fa9f27b9",
-      "contentRating": "mature"
+      "name": "MangaWOW（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangawow.kyyrule",
+      "packageBytes": 2476,
+      "packageSha256": "82a295026a0504df76ee47882aecb20a3c58d8e18fe1f68a8ffbf1c196aa69df",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "hanime1",
-      "name": "Hanime1",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/hanime1.kyyrule",
-      "packageBytes": 1842,
-      "packageSha256": "9aee545d58dc401523265673cca59bd0b5a167fc62b04f903d218af4b6620e3c",
-      "contentRating": "adult"
+      "name": "Hanime1（成人中文视频）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/hanime1.kyyrule",
+      "packageBytes": 2022,
+      "packageSha256": "eb19dce44106fb8acc0f5c68b85c17e711b865e0874d54de5dae732bdbbf4dd4",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-arabmanhwa",
-      "name": "ArabManhwa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-arabmanhwa.kyyrule",
-      "packageBytes": 2230,
-      "packageSha256": "8ea98e9f4e47b046bde9f5a2254ef5d934dc3ffe5200d94395baf0364efa7397",
-      "contentRating": "adult"
+      "name": "ArabManhwa（成人阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-arabmanhwa.kyyrule",
+      "packageBytes": 2513,
+      "packageSha256": "92e913075af35526b98dad4910edf44ff0569abb8b79e46740f2ee51b747af71",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "mangayomi-merlin-shoujo-487637789",
-      "name": "Merlin Shoujo",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/mangayomi-merlin-shoujo-487637789.kyyrule",
-      "packageBytes": 2457,
-      "packageSha256": "a1bc6115bb2bb888ccc0e342d97ec91ef1adb4be2ffbad82c1acdba829c9717b",
-      "contentRating": "mature"
+      "name": "Merlin Shoujo（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/mangayomi-merlin-shoujo-487637789.kyyrule",
+      "packageBytes": 2644,
+      "packageSha256": "ce20234219e1fc1cb19f8a477eba7060d39f1316f654a193bf0cca2517a445b7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-omegascans",
-      "name": "Omega Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-omegascans.kyyrule",
-      "packageBytes": 1896,
-      "packageSha256": "55447ef11c159055ce6176849147f06590b8167b88c23f16963f492155aca05c",
-      "contentRating": "adult"
+      "name": "Omega Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-omegascans.kyyrule",
+      "packageBytes": 2057,
+      "packageSha256": "78b8165ae857bc2327ac3d9eda88581217a24a4651f9411f5e4237620eab7f46",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-apcomics",
-      "name": "AP Comics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-apcomics.kyyrule",
-      "packageBytes": 2174,
-      "packageSha256": "2a5c5f6d8cd87982bf1cde999086506c3cd6c60b35b9430b860198a7684dc264",
-      "contentRating": "adult"
+      "name": "AP Comics（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-apcomics.kyyrule",
+      "packageBytes": 2436,
+      "packageSha256": "0216de31bf6c826135c6515e778d9129d04abd5ccd38fad042b6210d573b37f6",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-luascans",
-      "name": "Lua Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-luascans.kyyrule",
-      "packageBytes": 1844,
-      "packageSha256": "bc3439f16c1e51a27fb60686b6dd91079d3d08400d724f89df2c80b785a05f9e",
-      "contentRating": "mature"
+      "name": "Lua Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-luascans.kyyrule",
+      "packageBytes": 2000,
+      "packageSha256": "00e4ba61137ba106ff44d07a9c17f7daa0f8c6c519c39ea395fe48554ebac548",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hentaixcomic",
-      "name": "HentaiXComic",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hentaixcomic.kyyrule",
-      "packageBytes": 2012,
-      "packageSha256": "9f48b985d0b35cef9d62032e35324caeb07a30b95cec6fe09612cde4faa9fd32",
-      "contentRating": "adult"
+      "name": "HentaiXComic（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hentaixcomic.kyyrule",
+      "packageBytes": 2304,
+      "packageSha256": "a4815253a65fa47c68534d4880fb93125a3f8e3bb18978f8f0b9531a12910d17",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-jinmangas",
-      "name": "Jinmangas",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-jinmangas.kyyrule",
-      "packageBytes": 2009,
-      "packageSha256": "37b7085c0b9d011c7d6c73ec8ae4cdaac998e5cb4b4eb450ed33511c54ada142",
-      "contentRating": "mature"
+      "name": "Jinmangas（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-jinmangas.kyyrule",
+      "packageBytes": 2257,
+      "packageSha256": "e3f48e1a9db348a24a6daa2dec123f6dbfc1997d80ce3c6b55fb070ecdf8187b",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ksgroupscans",
-      "name": "KSGroupScans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ksgroupscans.kyyrule",
-      "packageBytes": 2190,
-      "packageSha256": "273d94b6c76b1c0284f2172d3f07cb86299a5f3f62d1bfcedb7ce4840fa77aa9",
-      "contentRating": "adult"
+      "name": "KSGroupScans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ksgroupscans.kyyrule",
+      "packageBytes": 2452,
+      "packageSha256": "155771001d07d47a243c0a60c078708c39d1011530a95396bc3e02a76fd056b3",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lhtranslation",
-      "name": "LHTranslation",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lhtranslation.kyyrule",
-      "packageBytes": 2244,
-      "packageSha256": "4fd71a65e645e55b8047e6bc067f3e0badb4b1f321468b0a05d5a6bb7bc7d5ce",
-      "contentRating": "adult"
+      "name": "LHTranslation（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lhtranslation.kyyrule",
+      "packageBytes": 2509,
+      "packageSha256": "257b704b0546712455241904661e9f3acc6b25a737cc1fed7afd1260a926eb7d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-likemangain",
-      "name": "MangaYY",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-likemangain.kyyrule",
-      "packageBytes": 2034,
-      "packageSha256": "2b7aaa062ae49bad8c2a9eb8f8f03e2f7bb86d38f32cf0337deae95dd1c0a02c",
-      "contentRating": "mature"
+      "name": "MangaYY（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-likemangain.kyyrule",
+      "packageBytes": 2604,
+      "packageSha256": "8d8a1ba48c5587ced37ec161983bec64e4978fde3d9871fadeb709c885119777",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangafree",
-      "name": "Mangafree",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangafree.kyyrule",
-      "packageBytes": 2006,
-      "packageSha256": "f65398549a95361e50f1408d238690dde173e5134b82105c2975e4321f1ffd02",
-      "contentRating": "adult"
+      "name": "Mangafree（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangafree.kyyrule",
+      "packageBytes": 2264,
+      "packageSha256": "929acb628804b4ed264a8d5a7699619412d378ced1cf66b0e223d0deecd8d0bf",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangamaniacs",
-      "name": "MangaManiacs",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangamaniacs.kyyrule",
-      "packageBytes": 2176,
-      "packageSha256": "6703581d540ab5cb82f9a90d62b466a8e39ba2953ff71a0197cb3d55e73d0bf7",
-      "contentRating": "adult"
+      "name": "MangaManiacs（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangamaniacs.kyyrule",
+      "packageBytes": 2433,
+      "packageSha256": "077986bd13256454109c0c20b41b19d5af63df6acca00f4b210c4bbadbf29661",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangareadorg",
-      "name": "MangaRead.org",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangareadorg.kyyrule",
-      "packageBytes": 2018,
-      "packageSha256": "17d7a1398a11fa6c5c9570e38045982016c78cf6068dbc861a8c464ea53fb440",
-      "contentRating": "mature"
+      "name": "MangaRead.org（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangareadorg.kyyrule",
+      "packageBytes": 2576,
+      "packageSha256": "c15c08b8cd99c78cf05e15d0bb166c84956b361c73aa426e8baecc9069163a93",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manhwaget",
-      "name": "ManhwaGet",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhwaget.kyyrule",
-      "packageBytes": 2192,
-      "packageSha256": "37b6c4ff42bf143db84d965bcfad4d034c7fe289bd0a6442354162176c1946a4",
-      "contentRating": "adult"
+      "name": "ManhwaGet（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manhwaget.kyyrule",
+      "packageBytes": 2450,
+      "packageSha256": "4cd38829330859cc0fe8f6458d8116a56ce156a49daf1bc0cd902a908804faae",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-octopusmanga",
-      "name": "OctopusManga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-octopusmanga.kyyrule",
-      "packageBytes": 2014,
-      "packageSha256": "033dfc30f7f1f317369c3afcee82210d10b96f14e14515caaafd262a3cfbf5ac",
-      "contentRating": "adult"
+      "name": "OctopusManga（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-octopusmanga.kyyrule",
+      "packageBytes": 2556,
+      "packageSha256": "b0f669514eda7e6f730d17dcfd5595546576014df171e20bdb30e8e273c398a3",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-petrotechsociety",
-      "name": "Petrotechsociety",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-petrotechsociety.kyyrule",
-      "packageBytes": 2016,
-      "packageSha256": "aff1aa7f5bf7634f00d39911ca56ffd750c367fd41e9c83494a7dd65118ab04d",
-      "contentRating": "adult"
+      "name": "Petrotechsociety（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-petrotechsociety.kyyrule",
+      "packageBytes": 2580,
+      "packageSha256": "17ec6242de22a43c9a5f9112c6dc7e4f67e61bd5cc42f626d5ab9fd45d24b7ce",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-s2manga",
-      "name": "S2Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-s2manga.kyyrule",
-      "packageBytes": 2177,
-      "packageSha256": "157fd4b814455a699628f172bfc61c21847861b39f5a7e8f7580cf10277e81a1",
-      "contentRating": "adult"
+      "name": "S2Manga（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-s2manga.kyyrule",
+      "packageBytes": 2438,
+      "packageSha256": "49729839ab425228f0bf00338dbb1f0c8146b0421101cdd35ce60202a6b42166",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-wearehunger",
-      "name": "KokoMangas",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-wearehunger.kyyrule",
-      "packageBytes": 2070,
-      "packageSha256": "8609f6d7ccfd68fd3a9d418ef0ab00d1f8b4447bac58f6feaa204f885ae745fc",
-      "contentRating": "mature"
+      "name": "KokoMangas（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-wearehunger.kyyrule",
+      "packageBytes": 2312,
+      "packageSha256": "53864e00598203c5a67e249c101c03b78c94a7331a1fe5db994f3d6933763ac0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-inventariooculto",
-      "name": "Inventario Oculto",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-inventariooculto.kyyrule",
-      "packageBytes": 2192,
-      "packageSha256": "90a86f0b201cbd5cd559a21c4b927ee7eb18621469fd8aad2ba0212f8d2c4e77",
-      "contentRating": "adult"
+      "name": "Inventario Oculto（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-inventariooculto.kyyrule",
+      "packageBytes": 2494,
+      "packageSha256": "a69bb3f94fcf19500734ec77894c4e1205c906d30dcd71e6203584be4e56fd9d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-kazokuden",
-      "name": "Kazoku Den",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kazokuden.kyyrule",
-      "packageBytes": 2202,
-      "packageSha256": "a8ff689db0581fc75efc5e3544f957075c20f2f6721a8612752c36cae78b82ef",
-      "contentRating": "mature"
+      "name": "Kazoku Den（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-kazokuden.kyyrule",
+      "packageBytes": 2462,
+      "packageSha256": "24e93088a2497040a99fabe14dbf5ecf44ec697f211a382e465eeb7b5b8031c9",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-kmansin09",
-      "name": "Kmansin09",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kmansin09.kyyrule",
-      "packageBytes": 2188,
-      "packageSha256": "b5ec723968312d704afd2cc154bda60aed521808decfd6871fe108e7e5517919",
-      "contentRating": "mature"
+      "name": "Kmansin09（日文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-kmansin09.kyyrule",
+      "packageBytes": 2437,
+      "packageSha256": "08dec5be75f403bdec95ba19431de3e93d4c4634826b043963c91ff7f6b3d4fc",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-arthurscan",
-      "name": "Arthur Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-arthurscan.kyyrule",
-      "packageBytes": 2078,
-      "packageSha256": "2a0accc0e328d892907467952d4f78b01c70ca7b1e4c41c07664141f239c59fe",
-      "contentRating": "mature"
+      "name": "Arthur Scan（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-arthurscan.kyyrule",
+      "packageBytes": 2689,
+      "packageSha256": "72710a429933dbaf93af7b41a6939b53003068f34a01e5b5a5c2a8e14aafa0b7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangalivreto",
-      "name": "Manga Livre.to",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangalivreto.kyyrule",
-      "packageBytes": 2256,
-      "packageSha256": "0510ca561fe88c4b233a6556dd5450282e2a81cc02fdc5661c9b51452cf055d4",
-      "contentRating": "adult"
+      "name": "Manga Livre.to（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangalivreto.kyyrule",
+      "packageBytes": 2582,
+      "packageSha256": "6f52d87176d976ca737e69c0679b3326ab702bda7bed78db0e3a5d3ba211f9b9",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "allporncomic",
-      "name": "AllPornComic.com",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/allporncomic.kyyrule",
-      "packageBytes": 2033,
-      "packageSha256": "d867a5124ddd4d572743093244916c1dc1cf463dd3e46fcba3dcb302a96f0593",
-      "contentRating": "adult"
+      "name": "AllPornComic.com（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/allporncomic.kyyrule",
+      "packageBytes": 3405,
+      "packageSha256": "8966890ff2d848a15f5c0a3dc326f86508fda9e3937d53fdbcdf70b723d5482f",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-yuriverso",
-      "name": "Yuri on Air",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-yuriverso.kyyrule",
-      "packageBytes": 2198,
-      "packageSha256": "59dfab2fa2040024d49e8bced38df84cefabe340f7cc2d727711b7e667c2c69a",
-      "contentRating": "adult"
+      "name": "Yuri on Air（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-yuriverso.kyyrule",
+      "packageBytes": 2529,
+      "packageSha256": "d8a7dcdfd3537d2dced07d0f0f1d1032b8d23c24b25ec38e780a24c4507297db",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-anikiga",
-      "name": "Anikiga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-anikiga.kyyrule",
-      "packageBytes": 2178,
-      "packageSha256": "7ade38b30f11c9b5855f32c7fd836dc2831da90278868e4120c684f409bdd8a0",
-      "contentRating": "mature"
+      "name": "Anikiga（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-anikiga.kyyrule",
+      "packageBytes": 2464,
+      "packageSha256": "557d4f247f17c3cb7a480b72a316eaded17ebcdcf21a1e6ba4a19da79379c5e5",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "hdporncomics",
-      "name": "HD Porn Comics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/hdporncomics.kyyrule",
-      "packageBytes": 1669,
-      "packageSha256": "b7d735b793d9fd288208ae946f627538b47e8bd9f8dd082231d9abf2b55ac9e3",
-      "contentRating": "adult"
+      "name": "HD Porn Comics（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/hdporncomics.kyyrule",
+      "packageBytes": 2600,
+      "packageSha256": "e38453a8a267fb8bb887f4e126db4018d3bbc482c3831446e2e1ea80419b154a",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-domalfansub",
-      "name": "Domal Fansub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-domalfansub.kyyrule",
-      "packageBytes": 2200,
-      "packageSha256": "807ab2d13273e5e39de1bd754160e1bf1a4c36f5f257a824c813104229f345c7",
-      "contentRating": "mature"
+      "name": "Domal Fansub（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-domalfansub.kyyrule",
+      "packageBytes": 2485,
+      "packageSha256": "0d2547c20dc26daa51467a739b20853cc0d0579c21f463c17d706f2c567397b9",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sunsetmanga",
-      "name": "Sunset Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sunsetmanga.kyyrule",
-      "packageBytes": 2204,
-      "packageSha256": "e9501dd739e11a1953e8708113a8666009040240b983973e7aaf77e5baa6f8c9",
-      "contentRating": "mature"
+      "name": "Sunset Manga（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sunsetmanga.kyyrule",
+      "packageBytes": 2498,
+      "packageSha256": "1d0d39d9d6e5eb578f15313711ff9d32adacb66897461337891481604fb45693",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tortugaceviri",
-      "name": "Tortuga Ceviri",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tortugaceviri.kyyrule",
-      "packageBytes": 2021,
-      "packageSha256": "284148fca1926a1e3b9fbce8f2262d2fd1063bb8bab134e0799b0e6ab3310bff",
-      "contentRating": "mature"
+      "name": "Tortuga Ceviri（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tortugaceviri.kyyrule",
+      "packageBytes": 2293,
+      "packageSha256": "ed82c6ce97e088d57bb594d6261d3f922b2e37b7fb67a77aee0589b9042a54f8",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-borutoexplorer",
-      "name": "Boruto Explorer",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-borutoexplorer.kyyrule",
-      "packageBytes": 2052,
-      "packageSha256": "e7137bcd8dd9fea6435c004aa19a9af103499487ceee5961710d9dc8bc41dbba",
-      "contentRating": "mature"
+      "name": "Boruto Explorer（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-borutoexplorer.kyyrule",
+      "packageBytes": 2378,
+      "packageSha256": "2072089bcee5848230035d21fe4eddb75cc022f7d3fd704fd58594bbbc86078f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manhuanext",
-      "name": "Manhuanext",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhuanext.kyyrule",
-      "packageBytes": 2170,
-      "packageSha256": "be8b03f5e71c9eeb430c41939144b232abc90a8670039509c629027b63a2b6ba",
-      "contentRating": "mature"
+      "name": "Manhuanext（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manhuanext.kyyrule",
+      "packageBytes": 2417,
+      "packageSha256": "2565ce3e3a1c2080e24669d2e4cb2c8e058dbb08161c84c4ba6e3220e0a02caf",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-cucumbermanga",
-      "name": "Cucumber Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-cucumbermanga.kyyrule",
-      "packageBytes": 2073,
-      "packageSha256": "6dbf1c8acfd52c1e0ed4f4f712a8a78b0aaee02aab0411bc61bdbed00cbab1b7",
-      "contentRating": "adult"
+      "name": "Cucumber Manga（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-cucumbermanga.kyyrule",
+      "packageBytes": 2617,
+      "packageSha256": "c463e459b94516a96c7d279582c4f45538e8959e4df0e48f0dd690dbdc716ec2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-histoiredhentai",
-      "name": "HistoireDHentai",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-histoiredhentai.kyyrule",
-      "packageBytes": 2138,
-      "packageSha256": "5fccbd3ea6146f45b001d2e7c4ed9f90d195a581b200556c6bf281e955f8bb9d",
-      "contentRating": "adult"
+      "name": "HistoireDHentai（成人法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-histoiredhentai.kyyrule",
+      "packageBytes": 2713,
+      "packageSha256": "bcae96524e0f9097eb344522fdfa26f15cd2da94e795fd508ad9210b4d832f6a",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ruyamanga",
-      "name": "Rüya Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ruyamanga.kyyrule",
-      "packageBytes": 2309,
-      "packageSha256": "3ea6d0a7d58b8131cb95ab92d545aed1c141c7a8e66d25280926373a905a3d04",
-      "contentRating": "adult"
+      "name": "Rüya Manga（成人土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ruyamanga.kyyrule",
+      "packageBytes": 2597,
+      "packageSha256": "b1be71c548fbe2849862e6349d34d395e296786365d55561d22f8a59317279a4",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangadia",
-      "name": "MangaDia",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangadia.kyyrule",
-      "packageBytes": 2233,
-      "packageSha256": "97cb173729e7cab0370205df6bd68b34a43c291938050551891574583f4599e1",
-      "contentRating": "adult"
+      "name": "MangaDia（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangadia.kyyrule",
+      "packageBytes": 2521,
+      "packageSha256": "769a466323a3a505712a1f77055fd41cc147534bf5ac95b403b538263e302767",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mundomanhwa",
-      "name": "Mundo Manhwa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mundomanhwa.kyyrule",
-      "packageBytes": 2194,
-      "packageSha256": "317a5df16ae1b962abc58b74b5a6e187943c6b16fdf1ef89635482fb75d28b84",
-      "contentRating": "adult"
+      "name": "Mundo Manhwa（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mundomanhwa.kyyrule",
+      "packageBytes": 2492,
+      "packageSha256": "b75a5146562b4a3c7adaf2f1fe83ee61b5c94d6f39ad7dc63fe88f6c776ec027",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-apollcomics",
-      "name": "ApollComics",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-apollcomics.kyyrule",
-      "packageBytes": 2024,
-      "packageSha256": "77906631a1077f7132c23740b8191f90138f9f81374908ea675bed8835570649",
-      "contentRating": "adult"
+      "name": "ApollComics（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-apollcomics.kyyrule",
+      "packageBytes": 2318,
+      "packageSha256": "2718c777a344c56cbfb3b1a9b5928b79fa27cef0222ff8cc025b752c93b10dc5",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-kamisamaexplorer",
-      "name": "Kami Sama Explorer",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-kamisamaexplorer.kyyrule",
-      "packageBytes": 2297,
-      "packageSha256": "13319a19393d5754d71ccc95b65c3aecadb42d492c43c6d68b6c70399696ecfa",
-      "contentRating": "teen"
+      "name": "Kami Sama Explorer（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-kamisamaexplorer.kyyrule",
+      "packageBytes": 2625,
+      "packageSha256": "071e664ee8c01a1369ac8da71d4823ebc618c15393d355ed530029f048df5712",
+      "contentRating": "teen",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-anisascans",
-      "name": "Anisa Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-anisascans.kyyrule",
-      "packageBytes": 2276,
-      "packageSha256": "43aed73b2db164f3da2f2766e2ed534e9daa2c2a9fb38615e7d92cc0f346ce18",
-      "contentRating": "adult"
+      "name": "Anisa Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-anisascans.kyyrule",
+      "packageBytes": 2565,
+      "packageSha256": "8173e34ac1876a054252fe562dfb860df4dee19fde62027e7f50fe1ef0408eaa",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hentaixdickgirl",
-      "name": "HentaiXDickgirl",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hentaixdickgirl.kyyrule",
-      "packageBytes": 2018,
-      "packageSha256": "52a2ce052e357cf903bb6ceee4c5a2f769db8d20b2d0ebee05d06b9cd4df8fca",
-      "contentRating": "adult"
+      "name": "HentaiXDickgirl（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hentaixdickgirl.kyyrule",
+      "packageBytes": 2270,
+      "packageSha256": "cb0888b097fa71a0535c9987f5719e74e85ad2f17a9a20c2450dfae3929f14e1",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-rawdex",
-      "name": "RawDEX",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-rawdex.kyyrule",
-      "packageBytes": 2078,
-      "packageSha256": "2f810b64490645ebcbf794961adf83458f4f06d1cd68aaed69159471cf3b4c90",
-      "contentRating": "adult"
+      "name": "RawDEX（成人韩文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-rawdex.kyyrule",
+      "packageBytes": 2325,
+      "packageSha256": "b165b83529c0152c9f6f2adbb59391f5f06462ad5bfe271f78ebc747475814d2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-euphoriascan",
-      "name": "Euphoria Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-euphoriascan.kyyrule",
-      "packageBytes": 2126,
-      "packageSha256": "f4dfd7cc9ded432e90e7023989471ebafce3eb086ee97e89c9493b9511549da3",
-      "contentRating": "adult"
+      "name": "Euphoria Scan（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-euphoriascan.kyyrule",
+      "packageBytes": 2422,
+      "packageSha256": "4c9038579554508c475bd08e02ef968735384fb1924cb879ca12e8dcdd7f6e76",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangahe",
-      "name": "MangaHe",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangahe.kyyrule",
-      "packageBytes": 2250,
-      "packageSha256": "befe83a03794ef0cd8598fcf37915c89fb3575f99850a4b15dbe428b52eb7865",
-      "contentRating": "adult"
+      "name": "MangaHe（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangahe.kyyrule",
+      "packageBytes": 2508,
+      "packageSha256": "a1f86d33e24de75b8d2570114efc0814cfc6fc14cf41c71edb675d344c7cbe03",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-yaoihub",
-      "name": "Yaoihub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-yaoihub.kyyrule",
-      "packageBytes": 2238,
-      "packageSha256": "088368c82816f961a30be41da46e7cf18d577e994ec70716194d0a6e0feb607f",
-      "contentRating": "adult"
+      "name": "Yaoihub（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-yaoihub.kyyrule",
+      "packageBytes": 2530,
+      "packageSha256": "3f8e3371492ab88bb43d17a9498ed11b61a937930b887011578892792148d59d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-vermanhwas",
-      "name": "Ver Manhwas",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-vermanhwas.kyyrule",
-      "packageBytes": 2180,
-      "packageSha256": "29404f507b67032008d5aa1b2d7899d2c3839bf7cfa4bd78ca534382618c19d2",
-      "contentRating": "adult"
-    },
-    {
-      "id": "keiyoushi-coffeemanga",
-      "name": "Coffee Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-coffeemanga.kyyrule",
-      "packageBytes": 2249,
-      "packageSha256": "72e88ef9030b350324a49d9ca015b2edf2872d72dc6ce19b483fa3b6c8fe2673",
-      "contentRating": "adult"
+      "name": "Ver Manhwas（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-vermanhwas.kyyrule",
+      "packageBytes": 2477,
+      "packageSha256": "a31b1a9fb20446a3f2aa4d9541bc353f9bb2d66d8b5346fa81c45ec9f8c9d4c2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-portalyaoi",
-      "name": "Portal Yaoi",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-portalyaoi.kyyrule",
-      "packageBytes": 2290,
-      "packageSha256": "83da9501e617555494ee2395f3acf4ba09b1e1da2d5826ed5d35b011a1fe165e",
-      "contentRating": "adult"
+      "name": "Portal Yaoi（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-portalyaoi.kyyrule",
+      "packageBytes": 2601,
+      "packageSha256": "e6b835fd1b76f6981d526cf86f152cb19f2711bdf3da9135918e94ed2ae26714",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-yaoiflix",
-      "name": "Yaoi Flix",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-yaoiflix.kyyrule",
-      "packageBytes": 2270,
-      "packageSha256": "86d0fd1f425124dd631a666b83bc77e8a8b46335a3cf7a1bdb7815fdf06bc7b8",
-      "contentRating": "adult"
+      "name": "Yaoi Flix（成人土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-yaoiflix.kyyrule",
+      "packageBytes": 2590,
+      "packageSha256": "9eddd119a5eff179be833afef74fb76b31f2652f367219ff2b25ce295aff413d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tankouhentai",
-      "name": "Tankou Hentai",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tankouhentai.kyyrule",
-      "packageBytes": 2030,
-      "packageSha256": "30be44e4ea28c1e11f97fdbcbe797cabc85abdf4043f87b7f77b06cdc3134c7d",
-      "contentRating": "adult"
+      "name": "Tankou Hentai（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tankouhentai.kyyrule",
+      "packageBytes": 2230,
+      "packageSha256": "562fcbf5d9629d76ddf85d2632093cbdc4472586ca90155898912b78222d4b87",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mrtenzus",
-      "name": "MR Tenzus",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mrtenzus.kyyrule",
-      "packageBytes": 2192,
-      "packageSha256": "ed9f0939e00d2670e2a7f0f1d418522b8cde2cb44e34b8eb915498c084859304",
-      "contentRating": "adult"
+      "name": "MR Tenzus（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mrtenzus.kyyrule",
+      "packageBytes": 2524,
+      "packageSha256": "4ebed4cd2a76a5b8405f702ca17cc1de08474a6f40a590a49364a724da69a452",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-nebulosascan",
-      "name": "Nebulosa Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-nebulosascan.kyyrule",
-      "packageBytes": 2213,
-      "packageSha256": "6136b5f8d869972f7f59601bc7d0006ff7e02bb0bdbc316785a7c400609f3f3c",
-      "contentRating": "adult"
+      "name": "Nebulosa Scan（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-nebulosascan.kyyrule",
+      "packageBytes": 2544,
+      "packageSha256": "e82e2da80d33ff612915fc2ff0d7ff1ff2b54e0126379bbdcc6354e8c9c19e68",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-nocturnesummer",
-      "name": "Nocturne Summer",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-nocturnesummer.kyyrule",
-      "packageBytes": 2212,
-      "packageSha256": "828e1577fc4963957c81a13d4babb0673fb9f707647521d1f2296907ecb28040",
-      "contentRating": "adult"
+      "name": "Nocturne Summer（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-nocturnesummer.kyyrule",
+      "packageBytes": 2546,
+      "packageSha256": "2d6b1ec9a7b1b5cedf693c9082d13a1d37e1b1e99f640994cfd48a6bb6034005",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hentaiorigines",
-      "name": "Hentai Origines",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hentaiorigines.kyyrule",
-      "packageBytes": 2185,
-      "packageSha256": "3f7a99429b27a636e3298ce9b475af1d359ef81a623b34e8e33db625d09d5084",
-      "contentRating": "adult"
+      "name": "Hentai Origines（成人法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hentaiorigines.kyyrule",
+      "packageBytes": 2446,
+      "packageSha256": "a699cbe6c06f42349a63a08557f534934da0b5770d80a1b58d707b34ed3cffc3",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-hotcabaretscan",
-      "name": "Hot Cabaret Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-hotcabaretscan.kyyrule",
-      "packageBytes": 2220,
-      "packageSha256": "9a99d03c99e7b70fbd0fc967f4c9e06cf6aa8cfd2929c282671a71cf42156f52",
-      "contentRating": "adult"
+      "name": "Hot Cabaret Scan（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-hotcabaretscan.kyyrule",
+      "packageBytes": 2549,
+      "packageSha256": "cd4e38c020cbd6f5cada85c15e1a030ba90d2068533d1d016526c39435e67390",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-athreascans",
-      "name": "Athrea Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-athreascans.kyyrule",
-      "packageBytes": 2424,
-      "packageSha256": "6834d1d2b7769bb1de39cf73cd0e96a304ed29e161ca3237d51a4eb07b399778",
-      "contentRating": "adult"
+      "name": "Athrea Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-athreascans.kyyrule",
+      "packageBytes": 2708,
+      "packageSha256": "97a8c0e7bb5f34a87a7df18f3f934351cb08922c7ea70d324b2f3474f603eae1",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lagoonscans",
-      "name": "Lagoon Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lagoonscans.kyyrule",
-      "packageBytes": 2436,
-      "packageSha256": "b784c15cbf946b303a031d893c0bb1d0ea682bff25e442cfb0b0a9627645a2a9",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-noxenscans",
-      "name": "Noxen Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-noxenscans.kyyrule",
-      "packageBytes": 2422,
-      "packageSha256": "bfd1c2dc5b0183b75eeb75e3c424063e669b1ad78bb51711bd4966f3143e1c21",
-      "contentRating": "adult"
+      "name": "Lagoon Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lagoonscans.kyyrule",
+      "packageBytes": 2682,
+      "packageSha256": "51a2ed33f56b36a0abda32dd2270ebf89b665ef6762089308a9cfc07f7f95775",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-uchuujinprojects",
-      "name": "Uchuujin Projects",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-uchuujinprojects.kyyrule",
-      "packageBytes": 2476,
-      "packageSha256": "df3010e9953983c5a990278be65d9fee7d3c30bd96757d8045cda3c2ccbd0341",
-      "contentRating": "mature"
+      "name": "Uchuujin Projects（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-uchuujinprojects.kyyrule",
+      "packageBytes": 2754,
+      "packageSha256": "d6ee0361a27a89ade55abde1f8cf803662be34f47b6ee0744faf61bc234292db",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-izanamiscans",
-      "name": "Izanami Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-izanamiscans.kyyrule",
-      "packageBytes": 2468,
-      "packageSha256": "6e5c535df831998d56c4667b6cb46a8e872469414a33ae487f7f608f33f40b1f",
-      "contentRating": "adult"
+      "name": "Izanami Scans（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-izanamiscans.kyyrule",
+      "packageBytes": 2756,
+      "packageSha256": "d79dcd8d18ba1f9ec4e7bf93f3408b9d577f802abc4d37a61eedf434b83386fa",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-luvyaa",
-      "name": "Luvyaa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-luvyaa.kyyrule",
-      "packageBytes": 2426,
-      "packageSha256": "671ef9db7ddd4536c3f8e29a77a7b43d1e013bedf3aa398f41806760892fd9be",
-      "contentRating": "adult"
+      "name": "Luvyaa（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-luvyaa.kyyrule",
+      "packageBytes": 2692,
+      "packageSha256": "eb670f96b345341964bc1140b19ef8d450e75c5f6ea6c52c1321d32b6224a59c",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mihentai",
-      "name": "Mihentai",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mihentai.kyyrule",
-      "packageBytes": 2430,
-      "packageSha256": "81cbbfe7f244ef60f099abf9051e7744af4ac499b35a1b37ced78cbdf023a135",
-      "contentRating": "adult"
+      "name": "Mihentai（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mihentai.kyyrule",
+      "packageBytes": 2689,
+      "packageSha256": "653d79b007619d274c4a33e944585a28fe4fcd7ba25110f8b47f26515e66f2cc",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-noromax",
-      "name": "Noromax",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-noromax.kyyrule",
-      "packageBytes": 2448,
-      "packageSha256": "52e40ba3ada70c431c3ccd474c724fdcec436b3f078278fd40e1a1d9399e8c09",
-      "contentRating": "adult"
+      "name": "Noromax（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-noromax.kyyrule",
+      "packageBytes": 2702,
+      "packageSha256": "7b1e3a853bc6de883a18bef9d44a6ff0b6a491f5fccda7b43ad2e4ab5786f610",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-doujinmoon",
-      "name": "Doujin Moon",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-doujinmoon.kyyrule",
-      "packageBytes": 2430,
-      "packageSha256": "e378d3eb4b79769584ce0d165f9af848706436892577805ee2d410d65f7c4afc",
-      "contentRating": "adult"
+      "name": "Doujin Moon（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-doujinmoon.kyyrule",
+      "packageBytes": 2688,
+      "packageSha256": "7f5a43cc509000ca5f80781f76fa085cb1868440cea4eff6f035ff30d18bb9c8",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-gomanga",
-      "name": "Go Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-gomanga.kyyrule",
-      "packageBytes": 2424,
-      "packageSha256": "1ab1aa386e775b82b9030e4c805d542c879c9a2ca51f4acf7f240e8a746bf72f",
-      "contentRating": "adult"
+      "name": "Go Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-gomanga.kyyrule",
+      "packageBytes": 2680,
+      "packageSha256": "0ac68e761392609e9815f612259a200ce75ef3bc3f114037e3c2c393ade290b6",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-singmanga",
-      "name": "SingManga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-singmanga.kyyrule",
-      "packageBytes": 2436,
-      "packageSha256": "b12bf81868f4f2dc9635d665ac51617d7868605d654d6d3aa488f81cc4c98539",
-      "contentRating": "adult"
+      "name": "SingManga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-singmanga.kyyrule",
+      "packageBytes": 2692,
+      "packageSha256": "6f032bed6ac3297fea1254939a33556822616ea6fd9f6b0e604334b939daec1a",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-slowmanga",
-      "name": "Slow Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-slowmanga.kyyrule",
-      "packageBytes": 2433,
-      "packageSha256": "1d865369f30e69fcee1ce5dca60fada4049c1f2ab97018de85190071bf270334",
-      "contentRating": "adult"
+      "name": "Slow Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-slowmanga.kyyrule",
+      "packageBytes": 2694,
+      "packageSha256": "aa5e64ce61a799a841e7c1d8a7e2aef0b869fc2f5476f316f67b3ca5206c66d4",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sodsaime",
-      "name": "สดใสเมะ",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sodsaime.kyyrule",
-      "packageBytes": 2601,
-      "packageSha256": "1dc5f2a351271c02d5ad91c409f559a65780e49392334ac644660234ae4e3f37",
-      "contentRating": "adult"
+      "name": "สดใสเมะ（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sodsaime.kyyrule",
+      "packageBytes": 2824,
+      "packageSha256": "ec8a79a2fac139c04dd6742d2fbd2e131dd001826c5192332a978ed32b7f921d",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-speedmanga",
-      "name": "Speed Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-speedmanga.kyyrule",
-      "packageBytes": 2432,
-      "packageSha256": "f4cb13a74fd5b1859a29cead963bd1f70689c6f3f40722ebf99e53bd366e8dae",
-      "contentRating": "adult"
+      "name": "Speed Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-speedmanga.kyyrule",
+      "packageBytes": 2694,
+      "packageSha256": "a8f67887df4dab90d792aca8dc43ee19d138015da141ad0b895c0fdeaa72a143",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-tanukimanga",
-      "name": "Tanuki-Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-tanukimanga.kyyrule",
-      "packageBytes": 2582,
-      "packageSha256": "79feb45a26bda835d03baf513150bbf590efe974e40f640a0f4c4c6a117b8f15",
-      "contentRating": "adult"
+      "name": "Tanuki-Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-tanukimanga.kyyrule",
+      "packageBytes": 2812,
+      "packageSha256": "c41621c2fa0f640e290ad99f51bc883bffda4f89d50686a15a9a319c5d4f452b",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-arcurafansub",
-      "name": "Arcura Fansub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-arcurafansub.kyyrule",
-      "packageBytes": 2456,
-      "packageSha256": "c1c71b5abd95c3dbcd96914a13d28c0c4698c3adf5e7c8a04f887a4214862187",
-      "contentRating": "adult"
+      "name": "Arcura Fansub（成人土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-arcurafansub.kyyrule",
+      "packageBytes": 2722,
+      "packageSha256": "2c0c7067f29d8c02986d0b1f3702e3abcdae5a49300816cfd29b08f65af16c09",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-gaiatoon",
-      "name": "Gaiatoon",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-gaiatoon.kyyrule",
-      "packageBytes": 2444,
-      "packageSha256": "2df9ecfd5c2955b48d1aa577d0522fffbc03f04f629714509c5287061a7f2da9",
-      "contentRating": "mature"
+      "name": "Gaiatoon（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-gaiatoon.kyyrule",
+      "packageBytes": 2696,
+      "packageSha256": "6cf16d977264e3bd9e3cfd8d1c1fc934ac4323e03d2fbf33af9564a22f9b626c",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-koreliscans",
-      "name": "Koreli Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-koreliscans.kyyrule",
-      "packageBytes": 2474,
-      "packageSha256": "e5efb8a34ffa4452dc7ec6eda783108bcea6d5ce9563266974c52ffc71429169",
-      "contentRating": "mature"
+      "name": "Koreli Scans（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-koreliscans.kyyrule",
+      "packageBytes": 2750,
+      "packageSha256": "873e99ac3da1b5574f61e17b6c40d347e591832895e999a7a564c2bffa32c622",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sereinscan",
-      "name": "Serein Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sereinscan.kyyrule",
-      "packageBytes": 2426,
-      "packageSha256": "e6869c4270f06becaffc5cf19e82843a57ea6045eafa62049ce564cf9b4946fa",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-zenithscans",
-      "name": "Zenith Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-zenithscans.kyyrule",
-      "packageBytes": 2476,
-      "packageSha256": "512d07da7cae7177c07a9e798d03d1efe83cefec293c9659200a1d7a6aa40fb4",
-      "contentRating": "mature"
+      "name": "Serein Scan（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sereinscan.kyyrule",
+      "packageBytes": 2682,
+      "packageSha256": "5d0b84e73e35d968b176912fc1030f8fcb4d0efc0694bfa7ecccfe8e650e7c3d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-bymichiscan",
-      "name": "Bymichi Scan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-bymichiscan.kyyrule",
-      "packageBytes": 2426,
-      "packageSha256": "9511569aa63cddfbd7f83fa4e99e028c861e01fb016b828a709abebf6f886390",
-      "contentRating": "adult"
+      "name": "Bymichi Scan（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-bymichiscan.kyyrule",
+      "packageBytes": 2721,
+      "packageSha256": "be7eebd75dea5751dd682ff380a580c484ab00469ef3de6b55f9b2268fe42748",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-cerberusseries",
-      "name": "Cerberus Series",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-cerberusseries.kyyrule",
-      "packageBytes": 2458,
-      "packageSha256": "a382976c15b8fea497b93622d9d7cb6573e39a1b59ab3cbe44b9a8b22b86f19a",
-      "contentRating": "adult"
+      "name": "Cerberus Series（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-cerberusseries.kyyrule",
+      "packageBytes": 2725,
+      "packageSha256": "ee52389872224a800356257ed15dd3322097880b31f841fbca178cab6dda15ab",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ntrmanga",
-      "name": "NTR-Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ntrmanga.kyyrule",
-      "packageBytes": 2430,
-      "packageSha256": "f0c565fc66c06f6a437a7c957c0cff2f9cfa1d6381e9b3e0e92cd8d0d2056e20",
-      "contentRating": "adult"
+      "name": "NTR-Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ntrmanga.kyyrule",
+      "packageBytes": 2596,
+      "packageSha256": "613d9ec886c92549b064c74bed447c95b0e3cc98d065d51b15996715f0e57c6e",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-reapertrans",
-      "name": "ReaperTrans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-reapertrans.kyyrule",
-      "packageBytes": 2442,
-      "packageSha256": "39d567dc49530e246ce9086a999c85e55bfd8e5b31d3d8884298086c461cc8f7",
-      "contentRating": "adult"
+      "name": "ReaperTrans（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-reapertrans.kyyrule",
+      "packageBytes": 2702,
+      "packageSha256": "bd3ac330070aa6125b9164eea7b731c1f91875378a11d5a1055175db4919d4d2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-genztoons",
-      "name": "Genz Toons",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-genztoons.kyyrule",
-      "packageBytes": 1865,
-      "packageSha256": "3123b050da1c3007adb1b663f01a10bfb0828a5c8f7fbed3fe79601aa0bbb57b",
-      "contentRating": "mature"
+      "name": "Genz Toons（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-genztoons.kyyrule",
+      "packageBytes": 2145,
+      "packageSha256": "465268e0272f47929207a6756844be43b18c706327ce85f7006fde0524f88245",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-asmotoon",
-      "name": "Asmodeus Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-asmotoon.kyyrule",
-      "packageBytes": 5588,
-      "packageSha256": "49f6bfab59e0e178131cb98b6a5b1e0021ed8b5074954828ecfffab428266847",
-      "contentRating": "adult"
+      "name": "Asmodeus Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-asmotoon.kyyrule",
+      "packageBytes": 5932,
+      "packageSha256": "6299cefb0c5e59c34329fe69239050cc0908186c9556692acd3e7e66e7450c42",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mistscans",
-      "name": "Mist Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mistscans.kyyrule",
-      "packageBytes": 4386,
-      "packageSha256": "feef9349cc7711585a3919aaf8b9d3d0d090d946a19c9fbeed9cfd1e6aa4dd71",
-      "contentRating": "adult"
+      "name": "Mist Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mistscans.kyyrule",
+      "packageBytes": 4682,
+      "packageSha256": "8d47ac54dd426d151a935bacf6382a0424e6a1e8e4927c5119b0043b79f114db",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-nyanukafe",
-      "name": "Nyanu Kafe",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-nyanukafe.kyyrule",
-      "packageBytes": 3536,
-      "packageSha256": "9c8a563dd8ce9924ff2d10d8c993a983e093b35b884a921e190a5190116a5d6c",
-      "contentRating": "mature"
+      "name": "Nyanu Kafe（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-nyanukafe.kyyrule",
+      "packageBytes": 3822,
+      "packageSha256": "beb04b202cc9f3f6043b9512986d059efb61d4523f871ceaa6d27196c9f136e7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-timelesstoons",
-      "name": "TimelessToons",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-timelesstoons.kyyrule",
-      "packageBytes": 7420,
-      "packageSha256": "9c496f81f7c9a9ca378627e4c6136814e59c392748e68be42e97a5620b38285b",
-      "contentRating": "mature"
+      "name": "TimelessToons（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-timelesstoons.kyyrule",
+      "packageBytes": 7694,
+      "packageSha256": "0247f9d16f9d0052146cf0ccb981f5a093553bae822e98ca10f4b174869aafef",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-writerscans",
-      "name": "Writer Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-writerscans.kyyrule",
-      "packageBytes": 4129,
-      "packageSha256": "2741d21d0c68a972e11e56a9b33a33b3fdf7155360767ccec9033f48186731a6",
-      "contentRating": "mature"
+      "name": "Writer Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-writerscans.kyyrule",
+      "packageBytes": 4418,
+      "packageSha256": "fdd82dae4b6edfa6d8087dac858a9645c00324d749fa1ccaaec6c7526af02d0f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-erisscans",
-      "name": "Eris Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-erisscans.kyyrule",
-      "packageBytes": 5092,
-      "packageSha256": "7c1416c4059e8c6cd3323924cac7700c04dbbfa8516e1f32d676646ac4c931df",
-      "contentRating": "adult"
+      "name": "Eris Scans（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-erisscans.kyyrule",
+      "packageBytes": 5384,
+      "packageSha256": "5dc7e39fb04e5d3ac9d187bdcc2bf6fd0335db2844bbe4f714bf951364307160",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-grimscans",
-      "name": "Grim Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-grimscans.kyyrule",
-      "packageBytes": 4106,
-      "packageSha256": "6e2920fb67a51508cc0a9b10f14049e65baec95e559e2b22b8e4c2768b0f1db1",
-      "contentRating": "mature"
+      "name": "Grim Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-grimscans.kyyrule",
+      "packageBytes": 4393,
+      "packageSha256": "c8378af23507004645a2df064e15c94ea58f26584ddc8bd74c43533628825c5e",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-artlapsa",
-      "name": "Art Lapsa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-artlapsa.kyyrule",
-      "packageBytes": 14868,
-      "packageSha256": "f9bfbe0e0e1bffdb13a920a70dfa6fc52959d2e6c788d1d61d52d4ef8d0ab0bb",
-      "contentRating": "adult"
+      "name": "Art Lapsa（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-artlapsa.kyyrule",
+      "packageBytes": 15161,
+      "packageSha256": "fe6a5f9aeacfcb3656027b6dad92e3d4ac2950b7fb86a394501b3b80501c366e",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ritharscans",
-      "name": "RitharScans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ritharscans.kyyrule",
-      "packageBytes": 3186,
-      "packageSha256": "e4563425663271d331d235aa2f7bc7da64214cce7865ec1df0f449fa243653ca",
-      "contentRating": "mature"
+      "name": "RitharScans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ritharscans.kyyrule",
+      "packageBytes": 3445,
+      "packageSha256": "88591db281f09002109371e8607a3c2bc8578c3012339f50c540124b91c6f291",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sasangeyou",
-      "name": "Sasangeyou",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sasangeyou.kyyrule",
-      "packageBytes": 2446,
-      "packageSha256": "6f2b79c19c67d86d5565707b1bd2c6749e6f72d9de09d13c3bf6a8ef3aab76f2",
-      "contentRating": "adult"
+      "name": "Sasangeyou（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sasangeyou.kyyrule",
+      "packageBytes": 2713,
+      "packageSha256": "a4697dbc4c3420a8d79e2ce5c888013f94f6663a8e6fe69f817b2e740a4319cb",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangacrazy",
-      "name": "MangaCrazy",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangacrazy.kyyrule",
-      "packageBytes": 2264,
-      "packageSha256": "9407f8f418497ac37e30b3087055d885b4e98ab90898f72ecedf6d58a1866cdc",
-      "contentRating": "adult"
+      "name": "MangaCrazy（成人多语言漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangacrazy.kyyrule",
+      "packageBytes": 2577,
+      "packageSha256": "69837924fbe506f21bf7140ccbe3609e50b30a6ac55f239ba46c005c6ba3409c",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-arabtoons",
-      "name": "عرب تونز",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-arabtoons.kyyrule",
-      "packageBytes": 2253,
-      "packageSha256": "f6f7d2d789a65aedfc47fff4ea7b3061c49d5d11708742e6912582fc59984514",
-      "contentRating": "adult"
+      "name": "عرب تونز（成人阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-arabtoons.kyyrule",
+      "packageBytes": 2552,
+      "packageSha256": "d40fd26f507bbcbb65ebdddd23bc258a7ec86f5473bfe5d20c5bc6cc396c4fbc",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-allporncomicio",
-      "name": "AllPornComic.io",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-allporncomicio.kyyrule",
-      "packageBytes": 2272,
-      "packageSha256": "8a9549d3ed07b09ac18b713976cceb6e42db9b1a37c47b77a0ec28a05e15d8c0",
-      "contentRating": "adult"
+      "name": "AllPornComic.io（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-allporncomicio.kyyrule",
+      "packageBytes": 2574,
+      "packageSha256": "d6187f084d6a34a749d485490b03fb33e0bca06ef79ff36ace8fb3527bb8aa61",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manga18x",
-      "name": "Manga 18x",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manga18x.kyyrule",
-      "packageBytes": 2250,
-      "packageSha256": "5c1be09ed7ba746a8306f2950adb9a66700aad8884f5538866a144cc273ff951",
-      "contentRating": "adult"
+      "name": "Manga 18x（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manga18x.kyyrule",
+      "packageBytes": 2534,
+      "packageSha256": "af264f679212a54f261b6dade475088025a6ec71e63bb13ae0ec9e91b4c92bd6",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-paritehaber",
-      "name": "Paritehaber",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-paritehaber.kyyrule",
-      "packageBytes": 2169,
-      "packageSha256": "e106f3712a39ad7e2af77d16106144c8bfe3fb0d95901bc4177181d0248f51e8",
-      "contentRating": "adult"
-    },
-    {
-      "id": "keiyoushi-pawmanga",
-      "name": "Paw Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-pawmanga.kyyrule",
-      "packageBytes": 2173,
-      "packageSha256": "c8eb056061ca4f421f70af04a5af488a220ef75ff868d56e4ded9437f8eb7e9f",
-      "contentRating": "adult"
+      "name": "Paritehaber（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-paritehaber.kyyrule",
+      "packageBytes": 2453,
+      "packageSha256": "9377c6f57f06fd8072cc036f537b45d0414a8a15d34d280ca66c8d728fe07a37",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-houseofotakus",
-      "name": "House Of Otakus",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-houseofotakus.kyyrule",
-      "packageBytes": 2238,
-      "packageSha256": "e08efe623e2c1a436a0912e01b173f6d94dfad8df91cba5f8a3818332064dccf",
-      "contentRating": "adult"
-    },
-    {
-      "id": "keiyoushi-noblessetranslations",
-      "name": "Noblesse Translations",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-noblessetranslations.kyyrule",
-      "packageBytes": 2205,
-      "packageSha256": "7ae662a69306e03c32a2fa2a8a97a1316e420c88c75aeff6d76eecefba53664d",
-      "contentRating": "adult"
+      "name": "House Of Otakus（成人西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-houseofotakus.kyyrule",
+      "packageBytes": 2538,
+      "packageSha256": "b952e53c95f89c8014eb44a6805e1b11e023c09c551cdeb8f5da9729cff3735b",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-turkcemangaoku",
-      "name": "Türkçe Manga Oku",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-turkcemangaoku.kyyrule",
-      "packageBytes": 2202,
-      "packageSha256": "a4b0b01f12af07235fdec56b93b1a865d4405971b0a39c5b98ea7b550840ff62",
-      "contentRating": "mature"
+      "name": "Türkçe Manga Oku（土耳其语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-turkcemangaoku.kyyrule",
+      "packageBytes": 2486,
+      "packageSha256": "536c533433f9bb11c092197a320b8bc1f9cf2de1752f38c13fc17e0d8992a4e0",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lelmanga",
-      "name": "Lelmanga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lelmanga.kyyrule",
-      "packageBytes": 2437,
-      "packageSha256": "b5e16cd8a38b4e40d774beaa61e14a56ed0c87a847424c7fe65a781d1423be71",
-      "contentRating": "mature"
-    },
-    {
-      "id": "keiyoushi-komikhwa",
-      "name": "Komikhwa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-komikhwa.kyyrule",
-      "packageBytes": 2450,
-      "packageSha256": "32b119663a16bdeb93bec0185f190d76a3cc2eb5aa94d1a61172f9a36dfd84da",
-      "contentRating": "adult"
+      "name": "Lelmanga（法语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lelmanga.kyyrule",
+      "packageBytes": 2712,
+      "packageSha256": "1895b12d14b6fea8516141c8ff6ddd251da0b17db0b1c6ded69c2ed4c2c955a7",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-komikindo",
-      "name": "Komikindo",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-komikindo.kyyrule",
-      "packageBytes": 2436,
-      "packageSha256": "47be7a90ca66a5a75bc10b323edfd46e4b6eb2212540ef7ae63c07783aab0aae",
-      "contentRating": "adult"
+      "name": "Komikindo（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-komikindo.kyyrule",
+      "packageBytes": 3034,
+      "packageSha256": "30495296543e14623ce7d5fe7af59b763b88edc2f0ff4c91569c4d999ab651d2",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-ler999",
-      "name": "Ler 999",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-ler999.kyyrule",
-      "packageBytes": 1804,
-      "packageSha256": "ff3654d912f40167adac5963f920514a5eb8ce6c144a2ffbf80ae15b28d46e1b",
-      "contentRating": "mature"
+      "name": "Ler 999（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-ler999.kyyrule",
+      "packageBytes": 2085,
+      "packageSha256": "e8b78ba39307d9e68c381c6d7c641d1c73c2d5991ac0e547da4e7294a0d2de7d",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lepoytl",
-      "name": "LepoyTL",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lepoytl.kyyrule",
-      "packageBytes": 1789,
-      "packageSha256": "987f9709b1e84462b14e51dadf71ba2ae6f2e5773b6e3b51bdd0c627b9ea8fdd",
-      "contentRating": "mature"
+      "name": "LepoyTL（印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lepoytl.kyyrule",
+      "packageBytes": 2037,
+      "packageSha256": "495fa08271178cf764880965daa86f188b9c31c98dfe05bdb1a963ec9604e088",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-lonertranslations",
-      "name": "Loner Translations",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-lonertranslations.kyyrule",
-      "packageBytes": 1812,
-      "packageSha256": "17bcceaed54814885b65b98345f0baa738211722acc53ddaeb8b9d31fa607f09",
-      "contentRating": "adult"
+      "name": "Loner Translations（成人阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-lonertranslations.kyyrule",
+      "packageBytes": 2073,
+      "packageSha256": "28bcace6f7a67e4c70191c29d86173322ef79875554809f7830675c110744dc1",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-xsanomanga",
-      "name": "XSano Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-xsanomanga.kyyrule",
-      "packageBytes": 1801,
-      "packageSha256": "d5ab8f99b57c8d05a9c220cc07f161d830b590ab25cf2f9b68953997de79bc5e",
-      "contentRating": "mature"
+      "name": "XSano Manga（阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-xsanomanga.kyyrule",
+      "packageBytes": 2052,
+      "packageSha256": "737778cf47121dbf1dbd84de7e52ca3b186f65b5449bdf542510999463bfaa37",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-aarlas",
-      "name": "Aarlas",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-aarlas.kyyrule",
-      "packageBytes": 1793,
-      "packageSha256": "802ce9d178aa081bfd620f7c51d181c46a6dba2e76783c1925c87d081a5e90fe",
-      "contentRating": "adult"
+      "name": "Aarlas（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-aarlas.kyyrule",
+      "packageBytes": 2049,
+      "packageSha256": "bb286e26e42f90b43984636d4c83d0981069c5dffdad63c52d39908aee09944b",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-apenasumafa",
-      "name": "Apenas Uma Fã",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-apenasumafa.kyyrule",
-      "packageBytes": 1742,
-      "packageSha256": "990fc2445dcc9f89b5ed5711ac2749b3b57d984229170c9ec220d1a50524d08a",
-      "contentRating": "mature"
+      "name": "Apenas Uma Fã（葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-apenasumafa.kyyrule",
+      "packageBytes": 1870,
+      "packageSha256": "916753da3fedd67fd37cdf12882fd7598d77d21afd3ca84745b213de011819b5",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-manhatok",
-      "name": "Manhatok",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-manhatok.kyyrule",
-      "packageBytes": 1797,
-      "packageSha256": "c13e02451ebcdc8ea00614153eb0c40e60826ac1ec1e87a1c7369849b31f8679",
-      "contentRating": "mature"
+      "name": "Manhatok（阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-manhatok.kyyrule",
+      "packageBytes": 2077,
+      "packageSha256": "5f052ff738c6e9aec77e6885ccfe041dcffd5a9b23243a37aab7f2f28297ccbb",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-comicverse",
-      "name": "Comic Verse",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-comicverse.kyyrule",
-      "packageBytes": 1738,
-      "packageSha256": "b1d40abf1af9def8428b5ed639f01b4f511bf900d7e058aae02ecbe1dc3d0922",
-      "contentRating": "mature"
+      "name": "Comic Verse（阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-comicverse.kyyrule",
+      "packageBytes": 1989,
+      "packageSha256": "d70a921a0b26d39af245681e5826273087e7d63705e137d6c350af212ca74095",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-yurimoonsub",
-      "name": "Yuri Moon Sub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-yurimoonsub.kyyrule",
-      "packageBytes": 1825,
-      "packageSha256": "70d2ea88aad3ce97ea2df7b45b83f1599daf61b71c46e446efb2eebcc33c0b5d",
-      "contentRating": "adult"
+      "name": "Yuri Moon Sub（成人阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-yurimoonsub.kyyrule",
+      "packageBytes": 2114,
+      "packageSha256": "30a43e47e761315ea1130a8b17cc816db88a89a88246c4d743d04fe009aca77c",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-pinkrosa",
-      "name": "Pink Rosa",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-pinkrosa.kyyrule",
-      "packageBytes": 1760,
-      "packageSha256": "36b6c8e8cc00806612c5d0234b16fc1af1a303d14b9486d6d2e94d86038ffa10",
-      "contentRating": "adult"
+      "name": "Pink Rosa（成人葡萄牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-pinkrosa.kyyrule",
+      "packageBytes": 2046,
+      "packageSha256": "ad92236f85fb9f16536303a5dcc570da48d3e1498b70f97dbb59932c0b3d9e53",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-sapphirescan",
-      "name": "SapphireScan",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-sapphirescan.kyyrule",
-      "packageBytes": 1800,
-      "packageSha256": "f73f05e3020b878a83af9d4b9c36c9ab77e04d3c915336b80ed21d214d2068b4",
-      "contentRating": "mature"
+      "name": "SapphireScan（西班牙语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-sapphirescan.kyyrule",
+      "packageBytes": 2082,
+      "packageSha256": "12bfd309bb7545838cd9c74696211cfd725e009136785508a32d9b9d461f4b4f",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-mangahub",
-      "name": "MangaHub",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-mangahub.kyyrule",
-      "packageBytes": 1792,
-      "packageSha256": "cd51b8c5b1b5bfd2bbff10ad367219b31cc73111e8ed1e551004b8decf073379",
-      "contentRating": "adult"
+      "name": "MangaHub（成人阿拉伯语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-mangahub.kyyrule",
+      "packageBytes": 2082,
+      "packageSha256": "74f6eda8990dabdf0b83ea3a99d86f3262f6c1af744f22a16d9e6242b636dcc6",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-en-mangatx",
-      "name": "MangaTx",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-en-mangatx.kyyrule",
-      "packageBytes": 2468,
-      "packageSha256": "86981d3c4c7a7bbd6db16f33251bd481260b7feac2008c41845c33ff20f3fbd7",
-      "contentRating": "adult"
+      "name": "MangaTx（成人英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-en-mangatx.kyyrule",
+      "packageBytes": 2658,
+      "packageSha256": "1fbee0a1321dccb579296c244650aa35f8544ea060ff3298e5b494dfdc9119a1",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "aidoku-th-upmanga",
-      "name": "Up-Manga",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/aidoku-th-upmanga.kyyrule",
-      "packageBytes": 2457,
-      "packageSha256": "de58bea4700b8606679a9e58b1f15ae641d91536add2ce9346869c64ef408878",
-      "contentRating": "adult"
+      "name": "Up-Manga（成人泰语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/aidoku-th-upmanga.kyyrule",
+      "packageBytes": 2652,
+      "packageSha256": "c0bf5ca0b0d8bf9e938111c95df471f22f6537a412802c60d21c78c7c833c1c9",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-okyykomik",
-      "name": "OkyyKomik",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-okyykomik.kyyrule",
-      "packageBytes": 1866,
-      "packageSha256": "fcf0978043ff766d7a2236f179347ee8776b74e8681f88caf0c560f54be4b323",
-      "contentRating": "adult"
+      "name": "OkyyKomik（成人印尼语漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-okyykomik.kyyrule",
+      "packageBytes": 2064,
+      "packageSha256": "ea51f7629f81f44a4b7ad22b072808cd8a193b44c824557a947189e21f27162c",
+      "contentRating": "adult",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-akazascans",
-      "name": "Akaza Scans",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-akazascans.kyyrule",
-      "packageBytes": 2538,
-      "packageSha256": "b06db2882c8fca0fc009e8f125bc5734b359f2292b429c5d613119f8e599bafe",
-      "contentRating": "mature"
+      "name": "Akaza Scans（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-akazascans.kyyrule",
+      "packageBytes": 2722,
+      "packageSha256": "d766cd27fa3446947450315fdc6fddcf819a150e52d54fd270c76e3d1760b570",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     },
     {
       "id": "keiyoushi-pmscans",
-      "name": "Rackus",
-      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-4943a8e0ac6de122-20260821183836/keiyoushi-pmscans.kyyrule",
-      "packageBytes": 2532,
-      "packageSha256": "8b3caba91ed2647f4e864d854d9878008627a94e1bb2bf17a67be648af01d0e4",
-      "contentRating": "mature"
+      "name": "Rackus（英文漫画）",
+      "url": "https://sources.kiokuyomi.com/v1/rule-packages/rules-8e89f33c0d1a6595-35/keiyoushi-pmscans.kyyrule",
+      "packageBytes": 2716,
+      "packageSha256": "36676b1b81c3b2157f54c1ce89c59bb8e67913881b362af5afc7f55561435515",
+      "contentRating": "mature",
+      "minimumRuleEngineVersion": 1
     }
   ]
 }

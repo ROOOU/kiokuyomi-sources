@@ -21,7 +21,8 @@ validate_all_collection() {
     def forbidden_key:
       test("(^|[_-])(token|cookie|authorization|password|secret|access[_-]?key)([_-]|$)|private.*(key|secret)|aes.*(key|secret)|^(privateKey|private_key|aesKey|aes_key)$"; "i");
     if type != "object" then fail("root must be an object") else . end
-    | if ([keys[]] - ["kind", "schemaVersion", "name", "catalogSequence", "releaseId", "count", "rules", "bundle"] | length) == 0 then . else fail("unexpected top-level field") end
+    | if ([keys[]] - ["kind", "schemaVersion", "name", "catalogSequence", "releaseId", "minimumRuleEngineVersion", "count", "rules", "bundle"] | length) == 0 then . else fail("unexpected top-level field") end
+    | if (.minimumRuleEngineVersion | type) == "number" and .minimumRuleEngineVersion >= 1 then . else fail("minimumRuleEngineVersion must be a positive integer") end
     | if .kind == "kiokuyomiRuleCollection" then . else fail("unexpected kind") end
     | if (.schemaVersion | type) == "number" then . else fail("schemaVersion must be numeric") end
     | if (.name | type) == "string" and (.name | length) > 0 then . else fail("name is required") end
@@ -44,7 +45,8 @@ validate_all_collection() {
     | if has("bundle") | not then .
       elif (.bundle.sha256 | type) == "string" and (.bundle.sha256 | test("^[a-f0-9]{64}$")) then .
       else fail("bundle sha256 is invalid") end
-    | if ([.rules[] | ([keys[]] - ["id", "name", "url", "packageBytes", "packageSha256", "contentRating"] | length == 0)] | all) then . else fail("unexpected rule field") end
+    | if ([.rules[] | ([keys[]] - ["id", "name", "url", "packageBytes", "packageSha256", "contentRating", "minimumRuleEngineVersion"] | length == 0)] | all) then . else fail("unexpected rule field") end
+    | if ([.rules[] | select(has("minimumRuleEngineVersion")) | (.minimumRuleEngineVersion | type == "number" and . >= 1)] | all) then . else fail("invalid rule minimumRuleEngineVersion") end
     | if ([.rules[].id] | all(type == "string" and length > 0)) then . else fail("invalid rule id") end
     | if ([.rules[].id] | unique | length) == (.rules | length) then . else fail("duplicate rule id") end
     | if ([.rules[] | (.name | type == "string" and length > 0)] | all) then . else fail("invalid rule name") end
@@ -71,7 +73,8 @@ validate_sources_collection() {
     | if (.schemaVersion | type) == "number" then . else fail("schemaVersion must be numeric") end
     | if (.count | type) == "number" and .count >= 0 then . else fail("count is invalid") end
     | if (.sources | type) == "array" and (.sources | length) == .count then . else fail("count does not match sources") end
-    | if ([.sources[] | ([keys[]] - ["id", "name", "version", "description", "iconUrl", "languages", "baseUrl", "hostname", "sourceType", "contentKinds", "contentRating", "stability", "origin", "publicationTier", "requiresBrowserSession", "priority", "packageUrl", "stableRuleUrl", "packageBytes", "packageSha256", "releaseId", "catalogSequence", "encryptionKeyId", "signingKeyId"] | length == 0)] | all) then . else fail("unexpected source field") end
+    | if ([.sources[] | ([keys[]] - ["id", "name", "version", "description", "iconUrl", "languages", "baseUrl", "hostname", "sourceType", "contentKinds", "contentRating", "stability", "origin", "publicationTier", "requiresBrowserSession", "priority", "packageUrl", "stableRuleUrl", "packageBytes", "packageSha256", "releaseId", "catalogSequence", "encryptionKeyId", "signingKeyId", "minimumRuleEngineVersion"] | length == 0)] | all) then . else fail("unexpected source field") end
+    | if ([.sources[] | select(has("minimumRuleEngineVersion")) | (.minimumRuleEngineVersion | type == "number" and . >= 1)] | all) then . else fail("invalid source minimumRuleEngineVersion") end
     | if ([.sources[].id] | all(type == "string" and length > 0)) then . else fail("invalid source id") end
     | if ([.sources[].id] | unique | length) == (.sources | length) then . else fail("duplicate source id") end
     | if ([.sources[] | (.name | type == "string" and length > 0)] | all) then . else fail("invalid source name") end
